@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "category": "math_exam"
+  },
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.07,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]1. 設 x為正數,請問下列哪一個選項的數值最大?\r[option] (A) 2/3 (B) (2+x)/(3+x) (C) (D) \\( \\frac{2+2 x}{3+2 x} \\) (E) \\( \\frac{2+3 x}{3+3 x} \\)\r[solution] 題意 : \\( |x-2+\\sqrt{3}| \\) 代表 \\( x \\) 到哪一個數的距離？ 性質 : \\( |x-a|=|x-(a)| \\) 代表「 \\( x \\) 到數線上 \\( a \\) 的距離」。 改寫：\\( |x-2+\\sqrt{3}|=|x-(2-\\sqrt{3})| \\) 結論：距離中心為 \\( 2-\\sqrt{3} \\) 。 答案：(B) \\( 2-\\sqrt{3} \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.17,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]2. 請問 \\( \\sqrt{999}+\\sqrt{999} \\) 在下列哪兩個連續整數之間?\r[option] (A) 30 與 31 (B) 31 與 32 (C) 32 與 33 (D) 33 與 34 (E) 34 與 35\r[solution] 題意 : \\( |2 x-3| \\leq 4 \\) 有幾個整數解? 性質 : \\( |A| \\leq B(B \\geq 0) \\Longleftrightarrow-B \\leq A \\leq B \\) 。 展開 : 整数枚挙 : \\( x=0,1,2,3 \\) 共 4 個。 答案 : (D) 四個"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.27,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]3. 設 \\( a \\) 為正有理數, \\( b \\) 為正無理數, 則下列數值 \\( 3 a-2 b 、 a^{2} 、 b^{2} 、 \\sqrt{a} 、 \\sqrt{b} \\), 有幾個必為無理數?\r[option] (A)一個 (B)兩個 (C)三個 (D)四個 (E)五個\r[solution] 題意: 已知 \\( \\frac{|a|}{a}+\\frac{|b|}{b}+\\frac{|c|}{c}+\\frac{|d|}{d}=2 \\) (皆不為 0 ), 問四個數有幾個正數? 性質: \\( \\frac{|t|}{t}=\\left\\{\\begin{array}{ll} 1, & t>0 \\\\ -1, & t<0 \\end{array}\\right. \\) 為「號誌函數」。設正數個數 \\( p \\), 負數個數 \\( 4-p \\) 。 列式: 答案 : (C) 三個"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.37,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]4. 下列有關數字性質的描述, 哪一個選項是錯誤的？\r[option] (A)任意兩個相異有理數之間, 有無限多個無理數 (B)任意兩個相異整數之間, 有無限多個有理數 (C)任意兩個相異實數之間, 有無限多個有理數 (D)任意兩個相異自然數之間, 至少有一個整數 (E)任意兩個異號的實數之間, 至少有一個整數\r[solution] 題意 : \\( |x-4|-|x-7|=k \\) 何種 \\( k \\) 無實數解? 關鍵事實 (三角不等式) : \\( \\left|x-4\\right|-\\left|x-7\\right| \\mid \\leq \\mid(x-4)-(x-7) \\mid=|3|=3 \\) 故 \\( -3 \\leq|x-4|-|x-7| \\leq 3 \\) 值域即 \\( [-3,3] \\); 只要 \\( k \\notin[-3,3] \\) 即無解。 選項比對:僅 k=4超出範圍。 答案: (E) \\( k=4 \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.47,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]5. 化簡 \\( \\frac{2}{\\sqrt{1+\\sqrt{3}}}+\\frac{2}{\\sqrt{3+\\sqrt{5}}}+\\frac{2}{\\sqrt{5+\\sqrt{7}}}+\\frac{2}{\\sqrt{7+\\sqrt{9}}}=\\)\r[solution] 題意:化簡 \\( \\sqrt{(2+\\sqrt{5})^{2}+\\sqrt{(\\sqrt{5}-4)^{2}}} \\) 化簡：\\( =|2+\\sqrt{5}|+|\\sqrt{5}-4| \\) 判號 : \\( \\sqrt{5} \\approx 2.236 \\Rightarrow 2+\\sqrt{5}>0, \\sqrt{5}-4<0 \\) 。 \\( =(2+\\sqrt{5})+(4-\\sqrt{5})=6 \\)"
+          }
+        ]
+      },
+      {
+        "blocks": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.07,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]6. 無理數 \\( \\sqrt{14-2 \\sqrt{33}} \\) 可以化簡為 \\( \\sqrt{a}-\\sqrt{b} \\), 其中 \\( a 、 b \\) 為正整數, 求數對\r[solution] \\( \\sqrt{14-2 \\sqrt{33}}=\\sqrt{a}-\\sqrt{b}, \\quad a, b \\) 設 \\( (\\sqrt{a}-\\sqrt{b})^{2}=a+b-2 \\sqrt{a b} \\) 比對：\\( x=\\frac{14 \\pm \\sqrt{14^{2}-4 \\times 33}}{2}=\\frac{14 \\pm \\sqrt{196-132}}{2}=\\frac{14 \\pm 8}{2} \\Rightarrow x=11,3 \\) 此 \\( a=11, b=3 \\). \\( (a, b)=(11,3) \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.17,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]7. 求實數 \\( 3 \\sqrt{7} \\) 的小數部分為: (請以精確值作答)\r[solution] 求 \\( 3 \\sqrt{7} \\) 的小数部分。 解：\\( \\sqrt{7} \\approx 2.64575 \\Rightarrow 3 \\sqrt{7} \\approx 7.93725 \\) 小數部分為 7.93725 - 7 = 0.93725 答案 : 小数部分 ≈ 0.937"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.27,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]8. 設 \\( a 、 b \\) 為正數, 已知 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值為\r[solution] 已知 \\( a, b>0 \\), 且 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值。 利用均值不等式 (AM-GM) 或代入法：由 \\( 5 a+6 b=10 \\Rightarrow b=\\frac{10-5 a}{6} \\) 。 \\( a b=a \\cdot \\frac{10-5 a}{6}=\\frac{10 a-5 a^{2}}{6} \\) 為一開口向下的二次函數。最大值在 \\( a=-\\frac{b}{2 a}=-\\frac{10}{2 \\times(-5)}=1 \\) 代入 \\( a=1 \\) 得 \\( b=\\frac{10-5}{6}=\\frac{5}{6} \\) 。 \\( a b=\\frac{1 \\times 5}{6}=\\frac{5}{6} \\) 答案：最大值 \\( =\\frac{5}{6} \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.37,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]9. 設 \\( x \\) 為正數, 求 \\( y=f(x)=\\frac{x}{12}+\\frac{75}{x} \\) 在何時, \\( y \\) 有最小值。\r[solution] \\( y=f(x)=\\frac{x}{12}+\\frac{75}{x}, \\quad x>0 \\) 求 \\( y \\) 最小值及發生時的 \\( x \\). 解：對 \\( x \\) 取導數：\\( f^{\\prime}(x)=\\frac{1}{12}-\\frac{75}{x^{2}}=0 \\Rightarrow x^{2}=900 \\Rightarrow x=30 \\) 代回：\\( y_{\\min }=\\frac{30}{12}+\\frac{75}{30}=2.5+2.5=5 \\) 答案: \\( x=30 \\) 時 \\( , y \\) 有最小值 5"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.47,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]10. 設實數 \\( x \\) 與 \\( y \\) 的範圍為 \\( 2 \\leq x \\leq 5,4 \\leq y \\leq 9 \\), 則 \\( 3 x-2 y \\) 的範圍為 \\( p \\leq \\) \\( 3 x-2 y \\leq q \\), 試求數對 \\( (p, q)= \\)\r[solution] 已知 \\( 2 \\leq x \\leq 5, \\quad 4 \\leq y \\leq 9 \\) 求 \\( 3 x-2 y \\) 的範圍 \\( [p, q] \\). 為線性表達式，極值出現在邊界。 最大值 \\( q \\) : 取 \\( x \\) 最大 \\( \\backslash y \\) 最小 \\( x=5, y=4 \\Rightarrow 3(5)-2(4)=15-8=7 \\) 最小值 \\( p \\) : 取 \\( x \\) 最小 \\( \\backslash y \\) 最大 \\( x=2, y=9 \\Rightarrow 3(2)-2(9)=6-18=-12 \\) 答案：\\( (p, q)=(-12,7) \\) 且範圍為 \\( -12 \\leq 3 x-2 y \\leq 7 \\)."
+          }
+        ]
+      }
+    ]
+  }
+}

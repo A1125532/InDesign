@@ -1,0 +1,241 @@
+{
+  "duration": 4.611811399459839,
+  "job_id": "5a7848fa-ba64-4005-867b-0538cb3285a1",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.08397154694566916,
+              "left": 0.10106419992970896,
+              "page": 1,
+              "top": 0.10261417072105315,
+              "width": 0.7956847725333748,
+              "original_page": 1
+            },
+            "content": "第一部分：選擇題（佔 60 分）\n壹、單選題（佔 25 分）\n\n說明：第 1 至 5 題，每題選出最適當的一個選項，劃記在答案卡之「解答欄」，每題答對得 5 分，答錯不倒扣。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.845434594154358
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012627489072365225,
+              "left": 0.10851648351648352,
+              "page": 1,
+              "top": 0.22583778533268578,
+              "width": 0.34684065934065933,
+              "original_page": 1
+            },
+            "content": "1. 對任意實數x而言,27 的最小值為",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6967557549476624
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01651287032540068,
+              "left": 0.1346153846153846,
+              "page": 1,
+              "top": 0.2510927634774162,
+              "width": 0.6009615384615384,
+              "original_page": 1
+            },
+            "content": "(1) 3 (2)3√3 (3) 9 (4) 27 (5) 81√3",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7187533706426621
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10792568923779748,
+              "left": 0.10574757921826708,
+              "page": 1,
+              "top": 0.37621862810754614,
+              "width": 0.7829886845179966,
+              "original_page": 1
+            },
+            "content": "2. 在職棒比賽中 ERA 值是了解一個投手表現的重要統計數值。其計算方式如下：若此投手共主投 \\( n \\) 局，其總責任失分為 \\( E \\)，則其 ERA 值為 \\( \\frac{E}{n} \\times 9 \\) 。有一位投手在之前的比賽中共主投了 90 局，且這 90 局中他的 ERA 值為 3.2 。在最新的一場比賽中此投手主投 6 局無責任失分，則打完這一場比賽後，此投手的 ERA 值成為",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9851322174072266
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012627489072365225,
+              "left": 0.1353021978021978,
+              "page": 1,
+              "top": 0.4953861097620204,
+              "width": 0.5597527472527473,
+              "original_page": 1
+            },
+            "content": "(1) 2.9 (2) 3.0 (3) 3.1 (4) 3.2 (5) 3.3",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8248362988233566
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03788246721709568,
+              "left": 0.10714285714285714,
+              "page": 1,
+              "top": 0.6260320543953375,
+              "width": 0.7767857142857143,
+              "original_page": 1
+            },
+            "content": "3. 有一個圓形跑道分內、外兩圈,半徑分別為30、50公尺。今甲在內圈以等速行走、乙在外圈\n以等速跑步,且知甲每走一圈,乙恰跑了兩圈。若甲走了45公尺,則同時段乙跑了",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9339734703302384
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012627489072365225,
+              "left": 0.1353021978021978,
+              "page": 1,
+              "top": 0.6770276833414279,
+              "width": 0.22733516483516483,
+              "original_page": 1
+            },
+            "content": "(1)90公尺 (2) 120 公尺",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9825116604566574
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012141816415735794,
+              "left": 0.40934065934065933,
+              "page": 1,
+              "top": 0.6775133559980573,
+              "width": 0.09065934065934066,
+              "original_page": 1
+            },
+            "content": "(3)135 公尺",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9929466634988784
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011656143759106362,
+              "left": 0.5556318681318682,
+              "page": 1,
+              "top": 0.6775133559980573,
+              "width": 0.08997252747252747,
+              "original_page": 1
+            },
+            "content": "(4)150公尺",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9949137568473816
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012627489072365225,
+              "left": 0.7019230769230769,
+              "page": 1,
+              "top": 0.6770276833414279,
+              "width": 0.09340659340659341,
+              "original_page": 1
+            },
+            "content": "(5) 180公尺",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9921570420265198
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06410879067508499,
+              "left": 0.10714285714285714,
+              "page": 1,
+              "top": 0.815444390480816,
+              "width": 0.7857142857142857,
+              "original_page": 1
+            },
+            "content": "4. 某地區的車牌號碼共六碼,其中前兩碼為O以外的英文大寫字母,後四碼為0到9的阿拉伯數\n字,但規定不能連續出現三個4。例如:AA1234,AB4434為可出現的車牌號碼;而AO1234,\nAB3444 為不可出現的車牌號碼。則所有第一碼為A且最後一碼為4的車牌號碼個數為",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9195996135473252
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013113161728994658,
+              "left": 0.1353021978021978,
+              "page": 1,
+              "top": 0.893152015541525,
+              "width": 0.6490384615384616,
+              "original_page": 1
+            },
+            "content": "(1)25×9 (2)25×92×10 (3)25×900 (4)25×990 (5)25×999",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6224350720643996
+            },
+            "image_url": null
+          }
+        ],
+        "content": "第一部分：選擇題（佔 60 分）\n壹、單選題（佔 25 分）\n\n說明：第 1 至 5 題，每題選出最適當的一個選項，劃記在答案卡之「解答欄」，每題答對得 5 分，答錯不倒扣。\n\n1. 對任意實數x而言,27 的最小值為\n\n(1) 3 (2)3√3 (3) 9 (4) 27 (5) 81√3\n\n2. 在職棒比賽中 ERA 值是了解一個投手表現的重要統計數值。其計算方式如下：若此投手共主投 \\( n \\) 局，其總責任失分為 \\( E \\)，則其 ERA 值為 \\( \\frac{E}{n} \\times 9 \\) 。有一位投手在之前的比賽中共主投了 90 局，且這 90 局中他的 ERA 值為 3.2 。在最新的一場比賽中此投手主投 6 局無責任失分，則打完這一場比賽後，此投手的 ERA 值成為\n\n(1) 2.9 (2) 3.0 (3) 3.1 (4) 3.2 (5) 3.3\n\n3. 有一個圓形跑道分內、外兩圈,半徑分別為30、50公尺。今甲在內圈以等速行走、乙在外圈\n以等速跑步,且知甲每走一圈,乙恰跑了兩圈。若甲走了45公尺,則同時段乙跑了\n\n(1)90公尺 (2) 120 公尺\n\n(3)135 公尺\n\n(4)150公尺\n\n(5) 180公尺\n\n4. 某地區的車牌號碼共六碼,其中前兩碼為O以外的英文大寫字母,後四碼為0到9的阿拉伯數\n字,但規定不能連續出現三個4。例如:AA1234,AB4434為可出現的車牌號碼;而AO1234,\nAB3444 為不可出現的車牌號碼。則所有第一碼為A且最後一碼為4的車牌號碼個數為\n\n(1)25×9 (2)25×92×10 (3)25×900 (4)25×990 (5)25×999",
+        "embed": "第一部分：選擇題（佔 60 分）\n壹、單選題（佔 25 分）\n\n說明：第 1 至 5 題，每題選出最適當的一個選項，劃記在答案卡之「解答欄」，每題答對得 5 分，答錯不倒扣。\n\n1. 對任意實數x而言,27 的最小值為\n\n(1) 3 (2)3√3 (3) 9 (4) 27 (5) 81√3\n\n2. 在職棒比賽中 ERA 值是了解一個投手表現的重要統計數值。其計算方式如下：若此投手共主投 \\( n \\) 局，其總責任失分為 \\( E \\)，則其 ERA 值為 \\( \\frac{E}{n} \\times 9 \\) 。有一位投手在之前的比賽中共主投了 90 局，且這 90 局中他的 ERA 值為 3.2 。在最新的一場比賽中此投手主投 6 局無責任失分，則打完這一場比賽後，此投手的 ERA 值成為\n\n(1) 2.9 (2) 3.0 (3) 3.1 (4) 3.2 (5) 3.3\n\n3. 有一個圓形跑道分內、外兩圈,半徑分別為30、50公尺。今甲在內圈以等速行走、乙在外圈\n以等速跑步,且知甲每走一圈,乙恰跑了兩圈。若甲走了45公尺,則同時段乙跑了\n\n(1)90公尺 (2) 120 公尺\n\n(3)135 公尺\n\n(4)150公尺\n\n(5) 180公尺\n\n4. 某地區的車牌號碼共六碼,其中前兩碼為O以外的英文大寫字母,後四碼為0到9的阿拉伯數\n字,但規定不能連續出現三個4。例如:AA1234,AB4434為可出現的車牌號碼;而AO1234,\nAB3444 為不可出現的車牌號碼。則所有第一碼為A且最後一碼為4的車牌號碼個數為\n\n(1)25×9 (2)25×92×10 (3)25×900 (4)25×990 (5)25×999",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 1,
+    "credits": 2.0
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f72f310b-4c5a-4490-919f-6c56480bc0e7.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20251108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251108T181511Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a1157c0ba7eb2ee0444358ef54783f3b4d836536b73d422b5c9c4a9760b5765f",
+  "studio_link": "https://studio.reducto.ai/job/5a7848fa-ba64-4005-867b-0538cb3285a1"
+}

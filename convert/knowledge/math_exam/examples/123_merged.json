@@ -1,0 +1,367 @@
+{
+  "duration": 3.7709271907806396,
+  "job_id": "6dda6bf9-26f7-4edd-aaaf-a459a6d14b3e",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.06630724909186646,
+              "left": 0.04450041981528128,
+              "page": 1,
+              "top": 0.04053924995476729,
+              "width": 0.9060852921979954,
+              "original_page": 1
+            },
+            "content": "對話式 數學 A\n1-1 空間概念\n\n班級 : <empty> \n座號 : <empty>\n姓名 : <empty> \n得分 : <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8518304586410522
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.04869857262804366,
+              "page": 1,
+              "top": 0.11817102137767221,
+              "width": 0.3047858942065491,
+              "original_page": 1
+            },
+            "content": "◎填充題(佔100分,每格10分)",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7225112795829773
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.15080398958256014,
+              "left": 0.04907119264130228,
+              "page": 1,
+              "top": 0.14115762597308307,
+              "width": 0.9066086744281247,
+              "original_page": 1
+            },
+            "content": "1.平面 \\( E \\) 上有直角三角形 \\( \\triangle A B C \\), \\( \\angle A B C=90^{\\circ}, O \\) 為平面 \\( E \\) 外一點且 \\( \\overline{O A} \\) 與 \\( E \\) 垂直，已知 \\( \\overline{O A}=3 \\) , \\( \\overline{A B}=4, \\overline{B C}=12 \\)，求 \\( \\overline{O C}= \\) : <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9534029960632324
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04825173421030656,
+              "left": 0.04878476364686647,
+              "page": 1,
+              "top": 0.2971760077034776,
+              "width": 0.9069368184663787,
+              "original_page": 1
+            },
+            "content": "2.長方體三邊長由大而小依次為 12 、 3 、 2 ， \\( \\overline{P Q} \\) 為通過內部的對角線，若有一隻螞蟻沿長方體表面由 \\( P \\) 爬到 \\( Q \\) ，求最短路徑長度為 \\( \\frac{\\sqrt{145}}{2} \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9923281908035279
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.19332545047134797,
+              "left": 0.04660701671635574,
+              "page": 1,
+              "top": 0.4702103494748367,
+              "width": 0.7820809313872599,
+              "original_page": 1
+            },
+            "content": "3.正立方體通過內部的對角線長度為 \\( \\sqrt{6} \\) ，求正立方體的體積為 \\( \\sqrt{6} \\) 立方單位。\n4.正四面體 \\( A B C D \\) 的各棱長為 6 , 求正四面體 \\( A B C D \\) 的體積為 \\( \\sqrt{6} \\) 立方單位。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9959664344787598
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04687260788580018,
+              "left": 0.048684149805384457,
+              "page": 1,
+              "top": 0.7882544728186238,
+              "width": 0.9073183682663515,
+              "original_page": 1
+            },
+            "content": "5.一個四角錐 A-BCDE 的底面為邊長 4 的正方形 BCDE ，側面由四個腰長為 3 的等腰三角形組成，設側面三角形與底面正方形所夾二面角為 \\( \\theta \\) ，求 \\( \\sin \\theta= \\) <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9866708278656006
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.02466610435069032,
+              "left": 0.04514363030242279,
+              "page": 1,
+              "top": 0.9597884153243765,
+              "width": 0.06574783197077856,
+              "original_page": 1
+            },
+            "content": "曼景",
+            "type": "Figure",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6046025395393371
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.9608076009501187,
+              "width": 0.10327455919395466,
+              "original_page": 1
+            },
+            "content": "數位文化(股)公司",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6518301069736481
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.9744655581947743,
+              "width": 0.10327455919395466,
+              "original_page": 1
+            },
+            "content": "版權所有‧請勿翻印",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6770851880311965
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.48530646515533166,
+              "page": 1,
+              "top": 0.9667458432304038,
+              "width": 0.02686817800167926,
+              "original_page": 1
+            },
+            "content": "1-1",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8414844423532486
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.8673383711167086,
+              "page": 1,
+              "top": 0.9661520190023754,
+              "width": 0.07808564231738035,
+              "original_page": 1
+            },
+            "content": "TMH202W",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8485088557004928
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.049724406697687795,
+              "left": 0.04757845451809797,
+              "page": 2,
+              "top": 0.2341213452844325,
+              "width": 0.9080047607421875,
+              "original_page": 2
+            },
+            "content": "7.正立方體 \\( A B C D-E F G H \\) 的邊長為 2 , 兩條通過內部的對角線 \\( \\overline{A G} \\cdot \\overline{C E} \\) 相交於一點 \\( P \\), 求銳交角 \\( \\angle A P E \\) 的餘弦值為: <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9779916048049927
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0685354989384812,
+              "left": 0.04781836406409891,
+              "page": 2,
+              "top": 0.03691096996751364,
+              "width": 0.7273682979452419,
+              "original_page": 2
+            },
+            "content": "6.如右圖，ABCD 是邊長 6 的正方形，P、Q 為 BC 、CD 的中點，今將此正方形沿 AP 、 PQ 、 AQ 向上折起，使 B 、 C 、 D 三重合，令此點為 R ，則四面體 APQR 的體積為 <empty>。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.983806848526001
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10937548023504769,
+              "left": 0.8066095180815753,
+              "page": 2,
+              "top": 0.03892038667003785,
+              "width": 0.1506785817951039,
+              "original_page": 2
+            },
+            "content": "B P",
+            "type": "Figure",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9194564193487167
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04737129120815395,
+              "left": 0.0476478044972712,
+              "page": 2,
+              "top": 0.41278123289275903,
+              "width": 0.9089463087413413,
+              "original_page": 2
+            },
+            "content": "8.四面體 \\( O-A B C \\)，已知 \\( \\overline{O A} 、 \\overline{O B} 、 \\overline{O C} \\) 兩兩垂直，且 \\( O A=3 ， O B=4 ， O C=2 \\)，求 \\( C \\) 到 \\( \\overrightarrow{A B} \\) 的距離為 \\( \\frac{\\sqrt{17}}{2} \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8072615146636963
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04828765216745843,
+              "left": 0.04722824545090785,
+              "page": 2,
+              "top": 0.5908964977128489,
+              "width": 0.9100896801696317,
+              "original_page": 2
+            },
+            "content": "9.將正方形 \\( A B C D \\) 沿對角線 \\( \\overline{B D} \\) 摺起，若 \\( \\angle A B C=30^{\\circ} \\)，則 \\( \\triangle A B D \\) 上面積 4 的圖形投影到 \\( \\triangle C B D \\) 上，投影面積為 \\( \\frac{1}{2} \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9899847745895386
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0677335109393557,
+              "left": 0.04568552870794468,
+              "page": 2,
+              "top": 0.7691841034877895,
+              "width": 0.7228783832489193,
+              "original_page": 2
+            },
+            "content": "10.四面體 \\( P Q A B \\) 如右圖 , \\( \\triangle P A B \\) 與 \\( \\triangle Q B A \\) 為全等的直角三角形 , \\( \\overline{P A}=\\overline{Q B}=4 \\), \\( \\overline{A B}=3, \\angle P A B=\\angle Q B A=90^{\\circ} \\), 若 \\( \\overline{P Q}=6 \\), 側面 \\( P A B \\) 與底面 \\( Q A B \\) 所成的二面角為 \\( \\theta \\), 求 \\( \\cos \\theta= \\) <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.979796290397644
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10556341973166568,
+              "left": 0.7905098172819585,
+              "page": 2,
+              "top": 0.7703529774717933,
+              "width": 0.16592809515375734,
+              "original_page": 2
+            },
+            "content": "P\n\n4\n3\nB",
+            "type": "Figure",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9195429891347885
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.48446683459277917,
+              "page": 2,
+              "top": 0.9673396674584323,
+              "width": 0.031066330814441646,
+              "original_page": 2
+            },
+            "content": "1-2",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8401823103427888
+            },
+            "image_url": null
+          }
+        ],
+        "content": "對話式 數學 A\n1-1 空間概念\n\n班級 : <empty> \n座號 : <empty>\n姓名 : <empty> \n得分 : <empty>\n\n◎填充題(占100分,每格10分)\n\n1.平面 \\( E \\) 上有直角三角形 \\( \\triangle A B C \\), \\( \\angle A B C=90^{\\circ}, O \\) 為平面 \\( E \\) 外一點且 \\( \\overline{O A} \\) 與 \\( E \\) 垂直，已知 \\( \\overline{O A}=3 \\) , \\( \\overline{A B}=4, \\overline{B C}=12 \\)，求 \\( \\overline{O C}= \\) : <empty>\n\n2.長方體三邊長由大而小依次為 12 、 3 、 2 ， \\( \\overline{P Q} \\) 為通過內部的對角線，若有一隻螞蟻沿長方體表面由 \\( P \\) 爬到 \\( Q \\) ，求最短路徑長度為 \\( \\frac{\\sqrt{145}}{2} \\)\n\n3.正立方體通過內部的對角線長度為 \\( \\sqrt{6} \\) ，求正立方體的體積為 \\( \\sqrt{6} \\) 立方單位。\n4.正四面體 \\( A B C D \\) 的各棱長為 6 , 求正四面體 \\( A B C D \\) 的體積為 \\( \\sqrt{6} \\) 立方單位。\n\n5.一個四角錐 A-BCDE 的底面為邊長 4 的正方形 BCDE ，側面由四個腰長為 3 的等腰三角形組成，設側面三角形與底面正方形所夾二面角為 \\( \\theta \\) ，求 \\( \\sin \\theta= \\) <empty>\n\n曼景\n\n數位文化(股)公司\n\n版權所有‧請勿翻印\n\n1-1\n\nTMH202W\n\n7.正立方體 \\( A B C D-E F G H \\) 的邊長為 2 , 兩條通過內部的對角線 \\( \\overline{A G} \\cdot \\overline{C E} \\) 相交於一點 \\( P \\), 求銳交角 \\( \\angle A P E \\) 的餘弦值為: <empty>\n\n6.如右圖，ABCD 是邊長 6 的正方形，P、Q 為 BC 、CD 的中點，今將此正方形沿 AP 、 PQ 、 AQ 向上折起，使 B 、 C 、 D 三重合，令此點為 R ，則四面體 APQR 的體積為 <empty>。\n\nB P\n\n8.四面體 \\( O-A B C \\)，已知 \\( \\overline{O A} 、 \\overline{O B} 、 \\overline{O C} \\) 兩兩垂直，且 \\( O A=3 ， O B=4 ， O C=2 \\)，求 \\( C \\) 到 \\( \\overrightarrow{A B} \\) 的距離為 \\( \\frac{\\sqrt{17}}{2} \\)\n\n9.將正方形 \\( A B C D \\) 沿對角線 \\( \\overline{B D} \\) 摺起，若 \\( \\angle A B C=30^{\\circ} \\)，則 \\( \\triangle A B D \\) 上面積 4 的圖形投影到 \\( \\triangle C B D \\) 上，投影面積為 \\( \\frac{1}{2} \\)\n\n10.四面體 \\( P Q A B \\) 如右圖 , \\( \\triangle P A B \\) 與 \\( \\triangle Q B A \\) 為全等的直角三角形 , \\( \\overline{P A}=\\overline{Q B}=4 \\), \\( \\overline{A B}=3, \\angle P A B=\\angle Q B A=90^{\\circ} \\), 若 \\( \\overline{P Q}=6 \\), 側面 \\( P A B \\) 與底面 \\( Q A B \\) 所成的二面角為 \\( \\theta \\), 求 \\( \\cos \\theta= \\) <empty>\n\nP\n\n4\n3\nB\n\n1-2",
+        "embed": "對話式 數學 A\n1-1 空間概念\n\n班級 : <empty> \n座號 : <empty>\n姓名 : <empty> \n得分 : <empty>\n\n◎填充題(占100分,每格10分)\n\n1.平面 \\( E \\) 上有直角三角形 \\( \\triangle A B C \\), \\( \\angle A B C=90^{\\circ}, O \\) 為平面 \\( E \\) 外一點且 \\( \\overline{O A} \\) 與 \\( E \\) 垂直，已知 \\( \\overline{O A}=3 \\) , \\( \\overline{A B}=4, \\overline{B C}=12 \\)，求 \\( \\overline{O C}= \\) : <empty>\n\n2.長方體三邊長由大而小依次為 12 、 3 、 2 ， \\( \\overline{P Q} \\) 為通過內部的對角線，若有一隻螞蟻沿長方體表面由 \\( P \\) 爬到 \\( Q \\) ，求最短路徑長度為 \\( \\frac{\\sqrt{145}}{2} \\)\n\n3.正立方體通過內部的對角線長度為 \\( \\sqrt{6} \\) ，求正立方體的體積為 \\( \\sqrt{6} \\) 立方單位。\n4.正四面體 \\( A B C D \\) 的各棱長為 6 , 求正四面體 \\( A B C D \\) 的體積為 \\( \\sqrt{6} \\) 立方單位。\n\n5.一個四角錐 A-BCDE 的底面為邊長 4 的正方形 BCDE ，側面由四個腰長為 3 的等腰三角形組成，設側面三角形與底面正方形所夾二面角為 \\( \\theta \\) ，求 \\( \\sin \\theta= \\) <empty>\n\n曼景\n\n數位文化(股)公司\n\n版權所有‧請勿翻印\n\n1-1\n\nTMH202W\n\n7.正立方體 \\( A B C D-E F G H \\) 的邊長為 2 , 兩條通過內部的對角線 \\( \\overline{A G} \\cdot \\overline{C E} \\) 相交於一點 \\( P \\), 求銳交角 \\( \\angle A P E \\) 的餘弦值為: <empty>\n\n6.如右圖，ABCD 是邊長 6 的正方形，P、Q 為 BC 、CD 的中點，今將此正方形沿 AP 、 PQ 、 AQ 向上折起，使 B 、 C 、 D 三重合，令此點為 R ，則四面體 APQR 的體積為 <empty>。\n\nB P\n\n8.四面體 \\( O-A B C \\)，已知 \\( \\overline{O A} 、 \\overline{O B} 、 \\overline{O C} \\) 兩兩垂直，且 \\( O A=3 ， O B=4 ， O C=2 \\)，求 \\( C \\) 到 \\( \\overrightarrow{A B} \\) 的距離為 \\( \\frac{\\sqrt{17}}{2} \\)\n\n9.將正方形 \\( A B C D \\) 沿對角線 \\( \\overline{B D} \\) 摺起，若 \\( \\angle A B C=30^{\\circ} \\)，則 \\( \\triangle A B D \\) 上面積 4 的圖形投影到 \\( \\triangle C B D \\) 上，投影面積為 \\( \\frac{1}{2} \\)\n\n10.四面體 \\( P Q A B \\) 如右圖 , \\( \\triangle P A B \\) 與 \\( \\triangle Q B A \\) 為全等的直角三角形 , \\( \\overline{P A}=\\overline{Q B}=4 \\), \\( \\overline{A B}=3, \\angle P A B=\\angle Q B A=90^{\\circ} \\), 若 \\( \\overline{P Q}=6 \\), 側面 \\( P A B \\) 與底面 \\( Q A B \\) 所成的二面角為 \\( \\theta \\), 求 \\( \\cos \\theta= \\) <empty>\n\nP\n\n4\n3\nB\n\n1-2",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 2,
+    "credits": 4.0
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5f614371-ec2f-40e9-8fef-c9e9395fa89e.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20251108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251108T214342Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=da5cc809b3e4f94aa4f2b3f0bde8e72657096be456476b6f6c066c01298679b5",
+  "studio_link": "https://studio.reducto.ai/job/6dda6bf9-26f7-4edd-aaaf-a459a6d14b3e"
+}

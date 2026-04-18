@@ -1,0 +1,123 @@
+{
+    "meta": {
+      "category": "math_exam"
+    },
+    "result": {
+      "chunks": [
+        {
+          "blocks": [
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.07, "width": 0.86, "height": 0.09, "page": 1 },
+              "content": "[problem]1. 設 \\(x>0\\)，下列哪一個選項的數值最大？______\r[option] (A) \\(\\frac{2}{3}\\)  (B) \\(\\frac{2+x}{3+x}\\)  (C) \\(\\frac{2+2x}{3+2x}\\)  (D) \\(\\frac{2+3x}{3+3x}\\)  (E) \\(\\frac{2+4x}{3+4x}\\)"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.175, "width": 0.86, "height": 0.06, "page": 1 },
+              "content": "[solution] 對固定 \\(x>0\\)，函數 \\(f(k)=\\frac{2+kx}{3+kx}\\) 對 \\(k\\) 單調遞增（可驗證 \\(\\partial f/\\partial k=\\frac{x}{(3+kx)^2}>0\\)）。故 \\(k\\) 越大，值越大；最大為 \\(k=4\\)。→ **答案：(E)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.242, "width": 0.86, "height": 0.09, "page": 1 },
+              "content": "[problem]2. 不等式 \\( |2x-3|\\le4 \\) 共有幾個整數解？______\r[option] (A)1 (B)2 (C)3 (D)4 (E)5"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.347, "width": 0.86, "height": 0.06, "page": 1 },
+              "content": "[solution] 由 \\(-4\\le 2x-3\\le 4\\Rightarrow -1\\le 2x\\le 7\\Rightarrow -0.5\\le x\\le 3.5\\)。整數解為 \\(x=0,1,2,3\\) 共 4 個。→ **答案：(D)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.414, "width": 0.86, "height": 0.09, "page": 1 },
+              "content": "[problem]3. 若 \\(\\frac{|a|}{a}+\\frac{|b|}{b}+\\frac{|c|}{c}+\\frac{|d|}{d}=2\\)，則四個數中有幾個為正數？______\r[option] (A)一個 (B)兩個 (C)三個 (D)四個 (E)以上皆非"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.519, "width": 0.86, "height": 0.06, "page": 1 },
+              "content": "[solution] 設正數有 \\(p\\) 個，負數有 \\(4-p\\) 個，則和為 \\(p-(4-p)=2p-4=2\\Rightarrow p=3\\)。→ **答案：(C)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.586, "width": 0.86, "height": 0.09, "page": 1 },
+              "content": "[problem]4. 何值的 \\(k\\) 會使方程 \\( |x-4|-|x-7|=k \\) 無實數解？______\r[option] (A) \\(k=0\\)  (B) \\(k=1\\)  (C) \\(k=2\\)  (D) \\(k=3\\)  (E) \\(k=4\\)"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.691, "width": 0.86, "height": 0.06, "page": 1 },
+              "content": "[solution] 由三角不等式得 \\(|x-4|-|x-7|\\in[-3,3]\\)。若 \\(k\\notin[-3,3]\\) 無解；僅 \\(k=4\\) 超界。→ **答案：(E)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.758, "width": 0.86, "height": 0.09, "page": 1 },
+              "content": "[problem]5. 化簡 \\( \\sqrt{(2+\\sqrt{5})^{2}}+\\sqrt{(\\sqrt{5}-4)^{2}}=\\) ______"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.863, "width": 0.86, "height": 0.06, "page": 1 },
+              "content": "[solution] 為 \\(|2+\\sqrt{5}|+|\\sqrt{5}-4|=(2+\\sqrt{5})+(4-\\sqrt{5})=6\\)。→ **答案：6**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.07, "width": 0.86, "height": 0.09, "page": 2 },
+              "content": "[problem]6. \\(\\sqrt{14-2\\sqrt{33}}\\) 可化為 \\(\\sqrt{a}-\\sqrt{b}\\)（\\(a,b\\) 為正整數），求數對 \\((a,b)\\)= ______"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.175, "width": 0.86, "height": 0.06, "page": 2 },
+              "content": "[solution] 設 \\(\\sqrt{14-2\\sqrt{33}}=\\sqrt{a}-\\sqrt{b}\\Rightarrow 14-2\\sqrt{33}=a+b-2\\sqrt{ab}\\)。\r比對得 \\(ab=33,\\ a+b=14\\)；為二次根 \\(t^2-14t+33=0\\Rightarrow t=11,3\\)。→ **答案：\\((a,b)=(11,3)\\)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.242, "width": 0.86, "height": 0.09, "page": 2 },
+              "content": "[problem]7. 求 \\(3\\sqrt{7}\\) 的小數部分（精確值）：______"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.347, "width": 0.86, "height": 0.06, "page": 2 },
+              "content": "[solution] \\(3\\sqrt{7}\\approx 7.937...\\)，其整數部分為 7，小數部分為 \\(3\\sqrt{7}-7\\)（精確表達）。→ **答案：\\(3\\sqrt{7}-7\\)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.414, "width": 0.86, "height": 0.09, "page": 2 },
+              "content": "[problem]8. 設 \\(a,b>0\\) 且 \\(5a+6b=10\\)，求乘積 \\(ab\\) 的最大值：______"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.519, "width": 0.86, "height": 0.06, "page": 2 },
+              "content": "[solution] 以 \\(b=\\frac{10-5a}{6}\\) 得 \\(ab=\\frac{10a-5a^2}{6}\\) 為下開口二次；頂點在 \\(a=1\\)，此時 \\(b=\\tfrac{5}{6}\\)，\\(ab=\\tfrac{5}{6}\\)。亦可用 AM-GM 驗證。→ **答案：\\(\\frac{5}{6}\\)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.586, "width": 0.86, "height": 0.09, "page": 2 },
+              "content": "[problem]9. 設 \\(x>0\\)，\\(y=\\frac{x}{12}+\\frac{75}{x}\\)。在何值 \\(x\\) 使 \\(y\\) 取最小？最小值為何？______"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 0.691, "width": 0.86, "height": 0.06, "page": 2 },
+              "content": "[solution] 微分法：\\(y'=\\tfrac{1}{12}-\\tfrac{75}{x^2}=0\\Rightarrow x^2=900\\Rightarrow x=30\\)（取正）。代回 \\(y_{\\min}=\\tfrac{30}{12}+\\tfrac{75}{30}=5\\)。→ **答案：\\(x=30,\\ y_{\\min}=5\\)**"
+            },
+  
+            {
+              "type": "Text",
+              "bbox": { "left": 0.045, "top": 0.758, "width": 0.90, "height": 0.09, "page": 2 },
+              "content": "[problem]10. 已知 \\(2\\le x\\le 5,\\ 4\\le y\\le 9\\)，求 \\(3x-2y\\) 的範圍 \\([p,q]\\) 與數對 \\((p,q)\\)：______"
+            },
+            {
+              "type": "Text",
+              "bbox": { "left": 0.050, "top": 1.00, "width": 0.90, "height": 0.06, "page": 2 },
+              "content": "[solution] 線性表達式極值落在邊界：最大取 \\(x=5,y=4\\Rightarrow 15-8=7\\)；最小取 \\(x=2,y=9\\Rightarrow 6-18=-12\\)。→ **答案：\\((p,q)=(-12,7)\\)**"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

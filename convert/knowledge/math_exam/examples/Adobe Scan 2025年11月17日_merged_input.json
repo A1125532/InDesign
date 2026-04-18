@@ -1,0 +1,244 @@
+{
+  "duration": 3.0431582927703857,
+  "job_id": "bfd5f584-a38c-456c-abc3-7e5498a9d158",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.03763802772395402,
+              "left": 0.03528749816336333,
+              "page": 1,
+              "top": 0.04379028393987386,
+              "width": 0.6293985646737928,
+              "original_page": 1
+            },
+            "content": "1.設.×2.下列哪一個選項的數值最大?\n-",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7930018305778503
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03728901959650555,
+              "left": 0.08190016586640336,
+              "page": 1,
+              "top": 0.10432119734966884,
+              "width": 0.5488652505128105,
+              "original_page": 1
+            },
+            "content": "(A)을 (8) 147 (4) 11374 (0) 111 ) их E) 344X 114X",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6093859970569611
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04209074489516946,
+              "left": 0.04019044584329779,
+              "page": 1,
+              "top": 0.1560985763859237,
+              "width": 0.604129185198672,
+              "original_page": 1
+            },
+            "content": "Ans. 對固定.x20函數f(x),對k草捆遞者",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.42475623935461043
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0492481245087515,
+              "left": 0.0883132853851244,
+              "page": 1,
+              "top": 0.18695294666955073,
+              "width": 0.7592333457014597,
+              "original_page": 1
+            },
+            "content": "何驗證)。故k故大,值越大:最大為。k=4答案:(E)",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5953118175268173
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07216632671132697,
+              "left": 0.035235944504419525,
+              "page": 1,
+              "top": 0.25166954685653065,
+              "width": 0.5873892990184327,
+              "original_page": 1
+            },
+            "content": "2.不等式12x-314共有幾個整數解?\n(A) 1 (B) 2 10)3 1014 (5)5",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6039385348558426
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07010181378632876,
+              "left": 0.03577725984433725,
+              "page": 1,
+              "top": 0.3389794521145272,
+              "width": 0.8674217375325204,
+              "original_page": 1
+            },
+            "content": "Ans. • -4=2x-3 ≤4 152x87 -0.5 5x5 3.5 12 12 14 ta X=0.1.2.3 5.4 A. & (0)",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5096271216869355
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047999772355396805,
+              "left": 0.022491480766269858,
+              "page": 1,
+              "top": 0.4350314390085415,
+              "width": 0.8047153844021532,
+              "original_page": 1
+            },
+            "content": "3. % 若 11, 1b1. 101, 1d? + 뿡뿡 敷中有幾個為正数?",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5501453429460526
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07517961117485539,
+              "left": 0.03530527569930739,
+              "page": 1,
+              "top": 0.4904230717297464,
+              "width": 0.8955594657838166,
+              "original_page": 1
+            },
+            "content": "(A) - 10 (B) 雨 (1)三個 (D) 四個 (E)以上皆",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.4502135753631592
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07092098836008469,
+              "left": 0.03525905504501241,
+              "page": 1,
+              "top": 0.5308073538126932,
+              "width": 0.8866984279750063,
+              "original_page": 1
+            },
+            "content": "Ans. 設正教育P個数育4-P個 ' 41) to 3P-(4-p) = 2P-42\n→ P=3 答案:(C)",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.4861552968621254
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06633324909079776,
+              "left": 0.01815384780095414,
+              "page": 1,
+              "top": 0.6208809937714295,
+              "width": 0.748289710666379,
+              "original_page": 1
+            },
+            "content": "4.何値的に使方程17-41-17-710K 無實数解 ? -\n(A) k=0 (B) k·| (1)k:2 (P) k:3 (E) k·4 K-4",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.64461819678545
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06896437273515607,
+              "left": 0.019555578890313525,
+              "page": 1,
+              "top": 0.7010763165638204,
+              "width": 0.7702383119975642,
+              "original_page": 1
+            },
+            "content": "Ans. = 717-4 -1x-7) + (-3.3] % k 4 (3.3) 超界,答案:(E)",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6504174441099168
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10060597042166251,
+              "left": 0.007536424275153344,
+              "page": 1,
+              "top": 0.7971590451078664,
+              "width": 0.7351577041579256,
+              "original_page": 1
+            },
+            "content": "5. It √(2 + √5)² + √(√55-4)²= こ\nAns. 13.12+551+159-41-(2+58) + (4.58) = 66",
+            "type": "Text",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7605879664421082
+            },
+            "image_url": null
+          }
+        ],
+        "content": "1.設.×2.下列哪一個選項的數值最大?\n-\n\n(A)을 (8) 147 (4) 11374 (0) 111 ) их E) 344X 114X\n\nAns. 對固定.x20函數f(x),對k草捆遞者\n\n何驗證)。故k故大,值越大:最大為。k=4答案:(E)\n\n2.不等式12x-314共有幾個整數解?\n(A) 1 (B) 2 10)3 1014 (5)5\n\nAns. • -4=2x-3 ≤4 152x87 -0.5 5x5 3.5 12 12 14 ta X=0.1.2.3 5.4 A. & (0)\n\n3. % 若 11, 1b1. 101, 1d? + 뿡뿡 敷中有幾個為正数?\n\n(A) - 10 (B) 雨 (1)三個 (D) 四個 (E)以上皆\n\nAns. 設正教育P個数育4-P個 ' 41) to 3P-(4-p) = 2P-42\n→ P=3 答案:(C)\n\n4.何値的に使方程17-41-17-710K 無實数解 ? -\n(A) k=0 (B) k·| (1)k:2 (P) k:3 (E) k·4 K-4\n\nAns. = 717-4 -1x-7) + (-3.3] % k 4 (3.3) 超界,答案:(E)\n\n5. It √(2 + √5)² + √(√55-4)²= こ\nAns. 13.12+551+159-41-(2+58) + (4.58) = 66",
+        "embed": "1.設.×2.下列哪一個選項的數值最大?\n-\n\n(A)을 (8) 147 (4) 11374 (0) 111 ) их E) 344X 114X\n\nAns. 對固定.x20函數f(x),對k草捆遞者\n\n何驗證)。故k故大,值越大:最大為。k=4答案:(E)\n\n2.不等式12x-314共有幾個整數解?\n(A) 1 (B) 2 10)3 1014 (5)5\n\nAns. • -4=2x-3 ≤4 152x87 -0.5 5x5 3.5 12 12 14 ta X=0.1.2.3 5.4 A. & (0)\n\n3. % 若 11, 1b1. 101, 1d? + 뿡뿡 敷中有幾個為正数?\n\n(A) - 10 (B) 雨 (1)三個 (D) 四個 (E)以上皆\n\nAns. 設正教育P個数育4-P個 ' 41) to 3P-(4-p) = 2P-42\n→ P=3 答案:(C)\n\n4.何値的に使方程17-41-17-710K 無實数解 ? -\n(A) k=0 (B) k·| (1)k:2 (P) k:3 (E) k·4 K-4\n\nAns. = 717-4 -1x-7) + (-3.3] % k 4 (3.3) 超界,答案:(E)\n\n5. It √(2 + √5)² + √(√55-4)²= こ\nAns. 13.12+551+159-41-(2+58) + (4.58) = 66",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 1,
+    "credits": 1.0
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/2e24b872-118a-4dc6-8794-25f19ec4ae43.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20251117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251117T091325Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5c6cdf523e60077410fcbb3d006c54fbbbd894613a5a61aa351b379f5b8f6d81",
+  "studio_link": "https://studio.reducto.ai/job/bfd5f584-a38c-456c-abc3-7e5498a9d158",
+  "meta": {
+    "source_filename": "Adobe Scan 2025年11月17日_merged.json"
+  }
+}

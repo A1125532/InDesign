@@ -1,0 +1,874 @@
+{
+  "job_id": "012ff364-fe54-4097-866b-eab2363ff9ef",
+  "duration": 13.733807802200317,
+  "pdf_url": null,
+  "studio_link": "https://studio.reducto.ai/job/012ff364-fe54-4097-866b-eab2363ff9ef",
+  "usage": {
+    "num_pages": 3,
+    "credits": 8
+  },
+  "result": {
+    "type": "full",
+    "chunks": [
+      {
+        "content": "1. 設 x為正數,請問下列哪一個選項的數值最大?:<empty> (A) 2/3(B) (2+x)/(3+x)(C)\n\n(D) \\( \\frac{2+2 x}{3+2 x} \\)\n(E) \\( \\frac{2+3 x}{3+3 x} \\)\n\\( \\frac{2+4 x}{3+4 x} \\)\n\n題意 : \\( |x-2+\\sqrt{3}| \\) 代表 \\( x \\) 到哪一個數的距離？\n\n性質 : \\( |x-a|=|x-(a)| \\) 代表「 \\( x \\) 到數線上 \\( a \\) 的距離」。\n\n改寫：\n\\( |x-2+\\sqrt{3}|=|x-(2-\\sqrt{3})| \\)\n\n結論：距離中心為 \\( 2-\\sqrt{3} \\) 。\n\n答案：(B) \\( 2-\\sqrt{3} \\)\n\n2. 請問 \\( \\sqrt{999}+\\sqrt{999} \\) 在下列哪兩個連續整數之間?\n(A) 30 與 31\n(B) 31 與 32\n(C) 32 與 33\n(D) 33 與 34\n(E) 34 與 35\n\n題意 : \\( |2 x-3| \\leq 4 \\) 有幾個整數解?\n\n性質 : \\( |A| \\leq B(B \\geq 0) \\Longleftrightarrow-B \\leq A \\leq B \\) 。\n\n展開 :\n\n整数枚挙 : \\( x=0,1,2,3 \\) 共 4 個。\n\n答案 : (D) 四個\n\n3. 設 \\( a \\) 為正有理數, \\( b \\) 為正無理數, 則下列數值 \\( 3 a-2 b 、 a^{2} 、 b^{2} 、 \\sqrt{a} 、 \\sqrt{b} \\), 有幾個必為無理數? (A)一個 (B)兩個 (C)三個 (D)四個 (E)五個\n\n題意: 已知\n\\[\n\\frac{|a|}{a}+\\frac{|b|}{b}+\\frac{|c|}{c}+\\frac{|d|}{d}=2\n\\]\n(皆不為 0 ), 問四個數有幾個正數?\n\n性質:\n\\[\n\\frac{|t|}{t}=\\left\\{\\begin{array}{ll}\n1, & t>0 \\\\\n-1, & t<0\n\\end{array}\\right.\n\\]\n\n為「號誌函數」。設正數個數 \\( p \\), 負數個數 \\( 4-p \\) 。\n\n列式:\n\n## 答案 : (C) 三個\n\n4. 下列有關數字性質的描述, 哪一個選項是錯誤的？: <empty>\n(A)任意兩個相異有理數之間, 有無限多個無理數\n(B)任意兩個相異整數之間, 有無限多個有理數\n(C)任意兩個相異實數之間, 有無限多個有理數\n(D)任意兩個相異自然數之間, 至少有一個整數\n(E)任意兩個異號的實數之間, 至少有一個整數\n\n題意 : \\( |x-4|-|x-7|=k \\) 何種 \\( k \\) 無實數解?\n\n關鍵事實 (三角不等式) :\n\\( \\left|x-4\\right|-\\left|x-7\\right| \\mid \\leq \\mid(x-4)-(x-7) \\mid=|3|=3 \\)\n\n故\n\\( -3 \\leq|x-4|-|x-7| \\leq 3 \\)\n\n值域即 \\( [-3,3] \\); 只要 \\( k \\notin[-3,3] \\) 即無解。\n\n選項比對:僅 k=4超出範圍。\n\n答案: (E) \\( k=4 \\)\n\n5.化簡 \\( \\frac{2}{\\sqrt{1+\\sqrt{3}}}+\\frac{2}{\\sqrt{3+\\sqrt{5}}}+\\frac{2}{\\sqrt{5+\\sqrt{7}}}+\\frac{2}{\\sqrt{7+\\sqrt{9}}}=\\) : <empty>\n\n題意:化簡\n\\( \\sqrt{(2+\\sqrt{5})^{2}+\\sqrt{(\\sqrt{5}-4)^{2}}} \\)\n\n化簡：\n\\( =|2+\\sqrt{5}|+|\\sqrt{5}-4| \\)\n判號 : \\( \\sqrt{5} \\approx 2.236 \\Rightarrow 2+\\sqrt{5}>0, \\sqrt{5}-4<0 \\) 。\n\\( =(2+\\sqrt{5})+(4-\\sqrt{5})=6 \\)\n\n6. 無理數 \\( \\sqrt{14-2 \\sqrt{33}} \\) 可以化簡為 \\( \\sqrt{a}-\\sqrt{b} \\), 其中 \\( a 、 b \\) 為正整數, 求數對\n\n\\( (a, b)=< \\) empty \\( >_{\\circ} \\)\n\n\\( \\sqrt{14-2 \\sqrt{33}}=\\sqrt{a}-\\sqrt{b}, \\quad a, b \\)\n\n設\n\\( (\\sqrt{a}-\\sqrt{b})^{2}=a+b-2 \\sqrt{a b} \\)\n\n比對：\n\\( x=\\frac{14 \\pm \\sqrt{14^{2}-4 \\times 33}}{2}=\\frac{14 \\pm \\sqrt{196-132}}{2}=\\frac{14 \\pm 8}{2} \\Rightarrow x=11,3 \\)\n\n此 \\( a=11, b=3 \\).\n\n\\( (a, b)=(11,3) \\)\n\n7.求實數 \\( 3 \\sqrt{7} \\) 的小數部分為: <empty>。(請以精確值作答)\n\n求 \\( 3 \\sqrt{7} \\) 的小数部分。\n\n解：\n\\( \\sqrt{7} \\approx 2.64575 \\Rightarrow 3 \\sqrt{7} \\approx 7.93725 \\)\n\n小數部分為\n7.93725 - 7 = 0.93725\n\n答案 : 小数部分 ≈ 0.937\n\n8.設 \\( a 、 b \\) 為正數, 已知 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值為\n已知 \\( a, b>0 \\), 且 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值。\n\n利用均值不等式 (AM-GM) 或代入法：\n\n由 \\( 5 a+6 b=10 \\Rightarrow b=\\frac{10-5 a}{6} \\) 。\n\\( a b=a \\cdot \\frac{10-5 a}{6}=\\frac{10 a-5 a^{2}}{6} \\)\n為一開口向下的二次函數。最大值在\n\\( a=-\\frac{b}{2 a}=-\\frac{10}{2 \\times(-5)}=1 \\)\n代入 \\( a=1 \\) 得 \\( b=\\frac{10-5}{6}=\\frac{5}{6} \\) 。\n\\( a b=\\frac{1 \\times 5}{6}=\\frac{5}{6} \\)\n答案：最大值 \\( =\\frac{5}{6} \\)\n\n9.設 \\( x \\) 為正數, 求 \\( y=f(x)=\\frac{x}{12}+\\frac{75}{x} \\) 在 \\( x=<\\emptyset> \\) 時, \\( y \\) 有最小值。\n\\( y=f(x)=\\frac{x}{12}+\\frac{75}{x}, \\quad x>0 \\)\n\n求 \\( y \\) 最小值及發生時的 \\( x \\).\n\n解：\n對 \\( x \\) 取導數：\n\\( f^{\\prime}(x)=\\frac{1}{12}-\\frac{75}{x^{2}}=0 \\Rightarrow x^{2}=900 \\Rightarrow x=30 \\)\n\n代回：\n\\( y_{\\min }=\\frac{30}{12}+\\frac{75}{30}=2.5+2.5=5 \\)\n\n## 答案:\n\n\\( x=30 \\) 時 \\( , y \\) 有最小值 5\n\n10.設實數 \\( x \\) 與 \\( y \\) 的範圍為 \\( 2 \\leq x \\leq 5,4 \\leq y \\leq 9 \\), 則 \\( 3 x-2 y \\) 的範圍為 \\( p \\leq \\) \\( 3 x-2 y \\leq q \\), 試求數對 \\( (p, q)= \\) :\n\n已知\n\\( 2 \\leq x \\leq 5, \\quad 4 \\leq y \\leq 9 \\)\n\n求 \\( 3 x-2 y \\) 的範圍 \\( [p, q] \\).\n\n為線性表達式，極值出現在邊界。\n\n最大值 \\( q \\) : 取 \\( x \\) 最大 \\( \\backslash y \\) 最小\n\\( x=5, y=4 \\Rightarrow 3(5)-2(4)=15-8=7 \\)\n\n最小值 \\( p \\) : 取 \\( x \\) 最小 \\( \\backslash y \\) 最大\n\\( x=2, y=9 \\Rightarrow 3(2)-2(9)=6-18=-12 \\)\n\n答案：\n\\( (p, q)=(-12,7) \\)\n且範圍為 \\( -12 \\leq 3 x-2 y \\leq 7 \\).",
+        "embed": "1. 設 x為正數,請問下列哪一個選項的數值最大?:<empty> (A) 2/3(B) (2+x)/(3+x)(C)\n\n(D) \\( \\frac{2+2 x}{3+2 x} \\)\n(E) \\( \\frac{2+3 x}{3+3 x} \\)\n\\( \\frac{2+4 x}{3+4 x} \\)\n\n題意 : \\( |x-2+\\sqrt{3}| \\) 代表 \\( x \\) 到哪一個數的距離？\n\n性質 : \\( |x-a|=|x-(a)| \\) 代表「 \\( x \\) 到數線上 \\( a \\) 的距離」。\n\n改寫：\n\\( |x-2+\\sqrt{3}|=|x-(2-\\sqrt{3})| \\)\n\n結論：距離中心為 \\( 2-\\sqrt{3} \\) 。\n\n答案：(B) \\( 2-\\sqrt{3} \\)\n\n2. 請問 \\( \\sqrt{999}+\\sqrt{999} \\) 在下列哪兩個連續整數之間?\n(A) 30 與 31\n(B) 31 與 32\n(C) 32 與 33\n(D) 33 與 34\n(E) 34 與 35\n\n題意 : \\( |2 x-3| \\leq 4 \\) 有幾個整數解?\n\n性質 : \\( |A| \\leq B(B \\geq 0) \\Longleftrightarrow-B \\leq A \\leq B \\) 。\n\n展開 :\n\n整数枚挙 : \\( x=0,1,2,3 \\) 共 4 個。\n\n答案 : (D) 四個\n\n3. 設 \\( a \\) 為正有理數, \\( b \\) 為正無理數, 則下列數值 \\( 3 a-2 b 、 a^{2} 、 b^{2} 、 \\sqrt{a} 、 \\sqrt{b} \\), 有幾個必為無理數? (A)一個 (B)兩個 (C)三個 (D)四個 (E)五個\n\n題意: 已知\n\\[\n\\frac{|a|}{a}+\\frac{|b|}{b}+\\frac{|c|}{c}+\\frac{|d|}{d}=2\n\\]\n(皆不為 0 ), 問四個數有幾個正數?\n\n性質:\n\\[\n\\frac{|t|}{t}=\\left\\{\\begin{array}{ll}\n1, & t>0 \\\\\n-1, & t<0\n\\end{array}\\right.\n\\]\n\n為「號誌函數」。設正數個數 \\( p \\), 負數個數 \\( 4-p \\) 。\n\n列式:\n\n## 答案 : (C) 三個\n\n4. 下列有關數字性質的描述, 哪一個選項是錯誤的？: <empty>\n(A)任意兩個相異有理數之間, 有無限多個無理數\n(B)任意兩個相異整數之間, 有無限多個有理數\n(C)任意兩個相異實數之間, 有無限多個有理數\n(D)任意兩個相異自然數之間, 至少有一個整數\n(E)任意兩個異號的實數之間, 至少有一個整數\n\n題意 : \\( |x-4|-|x-7|=k \\) 何種 \\( k \\) 無實數解?\n\n關鍵事實 (三角不等式) :\n\\( \\left|x-4\\right|-\\left|x-7\\right| \\mid \\leq \\mid(x-4)-(x-7) \\mid=|3|=3 \\)\n\n故\n\\( -3 \\leq|x-4|-|x-7| \\leq 3 \\)\n\n值域即 \\( [-3,3] \\); 只要 \\( k \\notin[-3,3] \\) 即無解。\n\n選項比對:僅 k=4超出範圍。\n\n答案: (E) \\( k=4 \\)\n\n5.化簡 \\( \\frac{2}{\\sqrt{1+\\sqrt{3}}}+\\frac{2}{\\sqrt{3+\\sqrt{5}}}+\\frac{2}{\\sqrt{5+\\sqrt{7}}}+\\frac{2}{\\sqrt{7+\\sqrt{9}}}=\\) : <empty>\n\n題意:化簡\n\\( \\sqrt{(2+\\sqrt{5})^{2}+\\sqrt{(\\sqrt{5}-4)^{2}}} \\)\n\n化簡：\n\\( =|2+\\sqrt{5}|+|\\sqrt{5}-4| \\)\n判號 : \\( \\sqrt{5} \\approx 2.236 \\Rightarrow 2+\\sqrt{5}>0, \\sqrt{5}-4<0 \\) 。\n\\( =(2+\\sqrt{5})+(4-\\sqrt{5})=6 \\)\n\n6. 無理數 \\( \\sqrt{14-2 \\sqrt{33}} \\) 可以化簡為 \\( \\sqrt{a}-\\sqrt{b} \\), 其中 \\( a 、 b \\) 為正整數, 求數對\n\n\\( (a, b)=< \\) empty \\( >_{\\circ} \\)\n\n\\( \\sqrt{14-2 \\sqrt{33}}=\\sqrt{a}-\\sqrt{b}, \\quad a, b \\)\n\n設\n\\( (\\sqrt{a}-\\sqrt{b})^{2}=a+b-2 \\sqrt{a b} \\)\n\n比對：\n\\( x=\\frac{14 \\pm \\sqrt{14^{2}-4 \\times 33}}{2}=\\frac{14 \\pm \\sqrt{196-132}}{2}=\\frac{14 \\pm 8}{2} \\Rightarrow x=11,3 \\)\n\n此 \\( a=11, b=3 \\).\n\n\\( (a, b)=(11,3) \\)\n\n7.求實數 \\( 3 \\sqrt{7} \\) 的小數部分為: <empty>。(請以精確值作答)\n\n求 \\( 3 \\sqrt{7} \\) 的小数部分。\n\n解：\n\\( \\sqrt{7} \\approx 2.64575 \\Rightarrow 3 \\sqrt{7} \\approx 7.93725 \\)\n\n小數部分為\n7.93725 - 7 = 0.93725\n\n答案 : 小数部分 ≈ 0.937\n\n8.設 \\( a 、 b \\) 為正數, 已知 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值為\n已知 \\( a, b>0 \\), 且 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值。\n\n利用均值不等式 (AM-GM) 或代入法：\n\n由 \\( 5 a+6 b=10 \\Rightarrow b=\\frac{10-5 a}{6} \\) 。\n\\( a b=a \\cdot \\frac{10-5 a}{6}=\\frac{10 a-5 a^{2}}{6} \\)\n為一開口向下的二次函數。最大值在\n\\( a=-\\frac{b}{2 a}=-\\frac{10}{2 \\times(-5)}=1 \\)\n代入 \\( a=1 \\) 得 \\( b=\\frac{10-5}{6}=\\frac{5}{6} \\) 。\n\\( a b=\\frac{1 \\times 5}{6}=\\frac{5}{6} \\)\n答案：最大值 \\( =\\frac{5}{6} \\)\n\n9.設 \\( x \\) 為正數, 求 \\( y=f(x)=\\frac{x}{12}+\\frac{75}{x} \\) 在 \\( x=<\\emptyset> \\) 時, \\( y \\) 有最小值。\n\\( y=f(x)=\\frac{x}{12}+\\frac{75}{x}, \\quad x>0 \\)\n\n求 \\( y \\) 最小值及發生時的 \\( x \\).\n\n解：\n對 \\( x \\) 取導數：\n\\( f^{\\prime}(x)=\\frac{1}{12}-\\frac{75}{x^{2}}=0 \\Rightarrow x^{2}=900 \\Rightarrow x=30 \\)\n\n代回：\n\\( y_{\\min }=\\frac{30}{12}+\\frac{75}{30}=2.5+2.5=5 \\)\n\n## 答案:\n\n\\( x=30 \\) 時 \\( , y \\) 有最小值 5\n\n10.設實數 \\( x \\) 與 \\( y \\) 的範圍為 \\( 2 \\leq x \\leq 5,4 \\leq y \\leq 9 \\), 則 \\( 3 x-2 y \\) 的範圍為 \\( p \\leq \\) \\( 3 x-2 y \\leq q \\), 試求數對 \\( (p, q)= \\) :\n\n已知\n\\( 2 \\leq x \\leq 5, \\quad 4 \\leq y \\leq 9 \\)\n\n求 \\( 3 x-2 y \\) 的範圍 \\( [p, q] \\).\n\n為線性表達式，極值出現在邊界。\n\n最大值 \\( q \\) : 取 \\( x \\) 最大 \\( \\backslash y \\) 最小\n\\( x=5, y=4 \\Rightarrow 3(5)-2(4)=15-8=7 \\)\n\n最小值 \\( p \\) : 取 \\( x \\) 最小 \\( \\backslash y \\) 最大\n\\( x=2, y=9 \\Rightarrow 3(2)-2(9)=6-18=-12 \\)\n\n答案：\n\\( (p, q)=(-12,7) \\)\n且範圍為 \\( -12 \\leq 3 x-2 y \\leq 7 \\).",
+        "enriched": "1. 設 x為正數,請問下列哪一個選項的數值最大?:<empty> (A) 2/3(B) (2+x)/(3+x)(C)\n\n(D) \\( \\frac{2+2 x}{3+2 x} \\)\n(E) \\( \\frac{2+3 x}{3+3 x} \\)\n\\( \\frac{2+4 x}{3+4 x} \\)\n\n題意 : \\( |x-2+\\sqrt{3}| \\) 代表 \\( x \\) 到哪一個數的距離？\n\n性質 : \\( |x-a|=|x-(a)| \\) 代表「 \\( x \\) 到數線上 \\( a \\) 的距離」。\n\n改寫：\n\\( |x-2+\\sqrt{3}|=|x-(2-\\sqrt{3})| \\)\n\n結論：距離中心為 \\( 2-\\sqrt{3} \\) 。\n\n答案：(B) \\( 2-\\sqrt{3} \\)\n\n2. 請問 \\( \\sqrt{999}+\\sqrt{999} \\) 在下列哪兩個連續整數之間?\n(A) 30 與 31\n(B) 31 與 32\n(C) 32 與 33\n(D) 33 與 34\n(E) 34 與 35\n\n題意 : \\( |2 x-3| \\leq 4 \\) 有幾個整數解?\n\n性質 : \\( |A| \\leq B(B \\geq 0) \\Longleftrightarrow-B \\leq A \\leq B \\) 。\n\n展開 :\n\n整数枚挙 : \\( x=0,1,2,3 \\) 共 4 個。\n\n答案 : (D) 四個\n\n3. 設 \\( a \\) 為正有理數, \\( b \\) 為正無理數, 則下列數值 \\( 3 a-2 b 、 a^{2} 、 b^{2} 、 \\sqrt{a} 、 \\sqrt{b} \\), 有幾個必為無理數? (A)一個 (B)兩個 (C)三個 (D)四個 (E)五個\n\n題意: 已知\n\\[\n\\frac{|a|}{a}+\\frac{|b|}{b}+\\frac{|c|}{c}+\\frac{|d|}{d}=2\n\\]\n(皆不為 0 ), 問四個數有幾個正數?\n\n性質:\n\\[\n\\frac{|t|}{t}=\\left\\{\\begin{array}{ll}\n1, & t>0 \\\\\n-1, & t<0\n\\end{array}\\right.\n\\]\n\n為「號誌函數」。設正數個數 \\( p \\), 負數個數 \\( 4-p \\) 。\n\n列式:\n\n## 答案 : (C) 三個\n\n4. 下列有關數字性質的描述, 哪一個選項是錯誤的？: <empty>\n(A)任意兩個相異有理數之間, 有無限多個無理數\n(B)任意兩個相異整數之間, 有無限多個有理數\n(C)任意兩個相異實數之間, 有無限多個有理數\n(D)任意兩個相異自然數之間, 至少有一個整數\n(E)任意兩個異號的實數之間, 至少有一個整數\n\n題意 : \\( |x-4|-|x-7|=k \\) 何種 \\( k \\) 無實數解?\n\n關鍵事實 (三角不等式) :\n\\( \\left|x-4\\right|-\\left|x-7\\right| \\mid \\leq \\mid(x-4)-(x-7) \\mid=|3|=3 \\)\n\n故\n\\( -3 \\leq|x-4|-|x-7| \\leq 3 \\)\n\n值域即 \\( [-3,3] \\); 只要 \\( k \\notin[-3,3] \\) 即無解。\n\n選項比對:僅 k=4超出範圍。\n\n答案: (E) \\( k=4 \\)\n\n5.化簡 \\( \\frac{2}{\\sqrt{1+\\sqrt{3}}}+\\frac{2}{\\sqrt{3+\\sqrt{5}}}+\\frac{2}{\\sqrt{5+\\sqrt{7}}}+\\frac{2}{\\sqrt{7+\\sqrt{9}}}=\\) : <empty>\n\n題意:化簡\n\\( \\sqrt{(2+\\sqrt{5})^{2}+\\sqrt{(\\sqrt{5}-4)^{2}}} \\)\n\n化簡：\n\\( =|2+\\sqrt{5}|+|\\sqrt{5}-4| \\)\n判號 : \\( \\sqrt{5} \\approx 2.236 \\Rightarrow 2+\\sqrt{5}>0, \\sqrt{5}-4<0 \\) 。\n\\( =(2+\\sqrt{5})+(4-\\sqrt{5})=6 \\)\n\n6. 無理數 \\( \\sqrt{14-2 \\sqrt{33}} \\) 可以化簡為 \\( \\sqrt{a}-\\sqrt{b} \\), 其中 \\( a 、 b \\) 為正整數, 求數對\n\n\\( (a, b)=< \\) empty \\( >_{\\circ} \\)\n\n\\( \\sqrt{14-2 \\sqrt{33}}=\\sqrt{a}-\\sqrt{b}, \\quad a, b \\)\n\n設\n\\( (\\sqrt{a}-\\sqrt{b})^{2}=a+b-2 \\sqrt{a b} \\)\n\n比對：\n\\( x=\\frac{14 \\pm \\sqrt{14^{2}-4 \\times 33}}{2}=\\frac{14 \\pm \\sqrt{196-132}}{2}=\\frac{14 \\pm 8}{2} \\Rightarrow x=11,3 \\)\n\n此 \\( a=11, b=3 \\).\n\n\\( (a, b)=(11,3) \\)\n\n7.求實數 \\( 3 \\sqrt{7} \\) 的小數部分為: <empty>。(請以精確值作答)\n\n求 \\( 3 \\sqrt{7} \\) 的小数部分。\n\n解：\n\\( \\sqrt{7} \\approx 2.64575 \\Rightarrow 3 \\sqrt{7} \\approx 7.93725 \\)\n\n小數部分為\n7.93725 - 7 = 0.93725\n\n答案 : 小数部分 ≈ 0.937\n\n8.設 \\( a 、 b \\) 為正數, 已知 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值為\n已知 \\( a, b>0 \\), 且 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值。\n\n利用均值不等式 (AM-GM) 或代入法：\n\n由 \\( 5 a+6 b=10 \\Rightarrow b=\\frac{10-5 a}{6} \\) 。\n\\( a b=a \\cdot \\frac{10-5 a}{6}=\\frac{10 a-5 a^{2}}{6} \\)\n為一開口向下的二次函數。最大值在\n\\( a=-\\frac{b}{2 a}=-\\frac{10}{2 \\times(-5)}=1 \\)\n代入 \\( a=1 \\) 得 \\( b=\\frac{10-5}{6}=\\frac{5}{6} \\) 。\n\\( a b=\\frac{1 \\times 5}{6}=\\frac{5}{6} \\)\n答案：最大值 \\( =\\frac{5}{6} \\)\n\n9.設 \\( x \\) 為正數, 求 \\( y=f(x)=\\frac{x}{12}+\\frac{75}{x} \\) 在 \\( x=<\\emptyset> \\) 時, \\( y \\) 有最小值。\n\\( y=f(x)=\\frac{x}{12}+\\frac{75}{x}, \\quad x>0 \\)\n\n求 \\( y \\) 最小值及發生時的 \\( x \\).\n\n解：\n對 \\( x \\) 取導數：\n\\( f^{\\prime}(x)=\\frac{1}{12}-\\frac{75}{x^{2}}=0 \\Rightarrow x^{2}=900 \\Rightarrow x=30 \\)\n\n代回：\n\\( y_{\\min }=\\frac{30}{12}+\\frac{75}{30}=2.5+2.5=5 \\)\n\n## 答案:\n\n\\( x=30 \\) 時 \\( , y \\) 有最小值 5\n\n10.設實數 \\( x \\) 與 \\( y \\) 的範圍為 \\( 2 \\leq x \\leq 5,4 \\leq y \\leq 9 \\), 則 \\( 3 x-2 y \\) 的範圍為 \\( p \\leq \\) \\( 3 x-2 y \\leq q \\), 試求數對 \\( (p, q)= \\) :\n\n已知\n\\( 2 \\leq x \\leq 5, \\quad 4 \\leq y \\leq 9 \\)\n\n求 \\( 3 x-2 y \\) 的範圍 \\( [p, q] \\).\n\n為線性表達式，極值出現在邊界。\n\n最大值 \\( q \\) : 取 \\( x \\) 最大 \\( \\backslash y \\) 最小\n\\( x=5, y=4 \\Rightarrow 3(5)-2(4)=15-8=7 \\)\n\n最小值 \\( p \\) : 取 \\( x \\) 最小 \\( \\backslash y \\) 最大\n\\( x=2, y=9 \\Rightarrow 3(2)-2(9)=6-18=-12 \\)\n\n答案：\n\\( (p, q)=(-12,7) \\)\n且範圍為 \\( -12 \\leq 3 x-2 y \\leq 7 \\).",
+        "enrichment_success": true,
+        "blocks": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15113350125944586,
+              "top": 0.09679334916864608,
+              "width": 0.6683459277917716,
+              "height": 0.037410926365795724,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "1. 設 x為正數,請問下列哪一個選項的數值最大?:<empty> (A) 2/3(B) (2+x)/(3+x)(C)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6192660361528397
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.181360201511335,
+              "top": 0.13895486935866982,
+              "width": 0.29974811083123426,
+              "height": 0.07779097387173396,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "(D) \\( \\frac{2+2 x}{3+2 x} \\)\n(E) \\( \\frac{2+3 x}{3+3 x} \\)\n\\( \\frac{2+4 x}{3+4 x} \\)\n\n題意 : \\( |x-2+\\sqrt{3}| \\) 代表 \\( x \\) 到哪一個數的距離？\n\n性質 : \\( |x-a|=|x-(a)| \\) 代表「 \\( x \\) 到數線上 \\( a \\) 的距離」。",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6432693123817443
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19311502938706968,
+              "top": 0.23574821852731592,
+              "width": 0.1561712846347607,
+              "height": 0.07660332541567696,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "改寫：\n\\( |x-2+\\sqrt{3}|=|x-(2-\\sqrt{3})| \\)\n\n結論：距離中心為 \\( 2-\\sqrt{3} \\) 。\n\n答案：(B) \\( 2-\\sqrt{3} \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6728980362415313
+            }
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15113350125944586,
+              "top": 0.3254156769596199,
+              "width": 0.691855583543241,
+              "height": 0.0344418052256532,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "2. 請問 \\( \\sqrt{999}+\\sqrt{999} \\) 在下列哪兩個連續整數之間?\n(A) 30 與 31\n(B) 31 與 32\n(C) 32 與 33\n(D) 33 與 34\n(E) 34 與 35",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8768780171871186
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19059613769941225,
+              "top": 0.37232779097387175,
+              "width": 0.24517212426532325,
+              "height": 0.07482185273159145,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "題意 : \\( |2 x-3| \\leq 4 \\) 有幾個整數解?\n\n性質 : \\( |A| \\leq B(B \\geq 0) \\Longleftrightarrow-B \\leq A \\leq B \\) 。\n\n展開 :",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6124189823865891
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19227539882451722,
+              "top": 0.4815914489311164,
+              "width": 0.19059613769941225,
+              "height": 0.009501187648456057,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "整数枚挙 : \\( x=0,1,2,3 \\) 共 4 個。",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8074840784072876
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19227539882451722,
+              "top": 0.5136579572446556,
+              "width": 0.09403862300587741,
+              "height": 0.009501187648456057,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "答案 : (D) 四個",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7745480179786681
+            }
+          },
+          {
+            "type": "Key Value",
+            "bbox": {
+              "left": 0.1500798504859034,
+              "top": 0.5380047505938242,
+              "width": 0.673463823012601,
+              "height": 0.18701396588758165,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "3. 設 \\( a \\) 為正有理數, \\( b \\) 為正無理數, 則下列數值 \\( 3 a-2 b 、 a^{2} 、 b^{2} 、 \\sqrt{a} 、 \\sqrt{b} \\), 有幾個必為無理數? (A)一個 (B)兩個 (C)三個 (D)四個 (E)五個\n\n題意: 已知\n\\[\n\\frac{|a|}{a}+\\frac{|b|}{b}+\\frac{|c|}{c}+\\frac{|d|}{d}=2\n\\]\n(皆不為 0 ), 問四個數有幾個正數?\n\n性質:\n\\[\n\\frac{|t|}{t}=\\left\\{\\begin{array}{ll}\n1, & t>0 \\\\\n-1, & t<0\n\\end{array}\\right.\n\\]\n\n為「號誌函數」。設正數個數 \\( p \\), 負數個數 \\( 4-p \\) 。\n\n列式:",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8816998243331908
+            }
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.18807724601175482,
+              "top": 0.7494061757719715,
+              "width": 0.07136859781696053,
+              "height": 0.007125890736342043,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "答案 : (C) 三個",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7682108223438262
+            }
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15029387069689337,
+              "top": 0.7737529691211401,
+              "width": 0.6893366918555835,
+              "height": 0.07838479809976247,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "4. 下列有關數字性質的描述, 哪一個選項是錯誤的？: <empty>\n(A)任意兩個相異有理數之間, 有無限多個無理數\n(B)任意兩個相異整數之間, 有無限多個有理數\n(C)任意兩個相異實數之間, 有無限多個有理數\n(D)任意兩個相異自然數之間, 至少有一個整數\n(E)任意兩個異號的實數之間, 至少有一個整數",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9584046810865402
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19059613769941225,
+              "top": 0.09560570071258907,
+              "width": 0.23761544920235098,
+              "height": 0.011876484560570071,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "題意 : \\( |x-4|-|x-7|=k \\) 何種 \\( k \\) 無實數解?",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8838695824146271
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19059613769941225,
+              "top": 0.12648456057007126,
+              "width": 0.26280436607892527,
+              "height": 0.024346793349168647,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "關鍵事實 (三角不等式) :\n\\( \\left|x-4\\right|-\\left|x-7\\right| \\mid \\leq \\mid(x-4)-(x-7) \\mid=|3|=3 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7039621502161026
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1897565071368598,
+              "top": 0.16389548693586697,
+              "width": 0.14021830394626364,
+              "height": 0.023752969121140142,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "故\n\\( -3 \\leq|x-4|-|x-7| \\leq 3 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7653909504413605
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1889168765743073,
+              "top": 0.2001187648456057,
+              "width": 0.21326616288832914,
+              "height": 0.010095011876484561,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "值域即 \\( [-3,3] \\); 只要 \\( k \\notin[-3,3] \\) 即無解。",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7704150289297104
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19059613769941225,
+              "top": 0.23040380047505937,
+              "width": 0.163727959697733,
+              "height": 0.007719714964370546,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "選項比對:僅 k=4超出範圍。",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7131573796272277
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1897565071368598,
+              "top": 0.25771971496437057,
+              "width": 0.08900083963056256,
+              "height": 0.010688836104513063,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "答案: (E) \\( k=4 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7436647564172745
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15113350125944586,
+              "top": 0.28741092636579574,
+              "width": 0.4290512174643157,
+              "height": 0.02553444180522565,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "5.化簡 \\( \\frac{2}{\\sqrt{1+\\sqrt{3}}}+\\frac{2}{\\sqrt{3+\\sqrt{5}}}+\\frac{2}{\\sqrt{5+\\sqrt{7}}}+\\frac{2}{\\sqrt{7+\\sqrt{9}}}=\\) : <empty>",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9303159534931182
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16036943744752308,
+              "top": 0.3319477434679335,
+              "width": 0.13602015113350127,
+              "height": 0.029691211401425176,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "題意:化簡\n\\( \\sqrt{(2+\\sqrt{5})^{2}+\\sqrt{(\\sqrt{5}-4)^{2}}} \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8894238203763962
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16036943744752308,
+              "top": 0.413895486935867,
+              "width": 0.23761544920235098,
+              "height": 0.06116389548693587,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "化簡：\n\\( =|2+\\sqrt{5}|+|\\sqrt{5}-4| \\)\n判號 : \\( \\sqrt{5} \\approx 2.236 \\Rightarrow 2+\\sqrt{5}>0, \\sqrt{5}-4<0 \\) 。\n\\( =(2+\\sqrt{5})+(4-\\sqrt{5})=6 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7338059365749359
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15197313182199831,
+              "top": 0.5089073634204275,
+              "width": 0.6515533165407221,
+              "height": 0.013657957244655582,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "6. 無理數 \\( \\sqrt{14-2 \\sqrt{33}} \\) 可以化簡為 \\( \\sqrt{a}-\\sqrt{b} \\), 其中 \\( a 、 b \\) 為正整數, 求數對",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7016953349113464
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15197313182199831,
+              "top": 0.5403800475059383,
+              "width": 0.16204869857262805,
+              "height": 0.013064133016627079,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\\( (a, b)=< \\) empty \\( >_{\\circ} \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7127365142107009
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16204869857262805,
+              "top": 0.5742280285035629,
+              "width": 0.1418975650713686,
+              "height": 0.008907363420427554,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\\( \\sqrt{14-2 \\sqrt{33}}=\\sqrt{a}-\\sqrt{b}, \\quad a, b \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8114058792591095
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16204869857262805,
+              "top": 0.6074821852731591,
+              "width": 0.12510495382031905,
+              "height": 0.021377672209026127,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "設\n\\( (\\sqrt{a}-\\sqrt{b})^{2}=a+b-2 \\sqrt{a b} \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8831809639930726
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16288832913518053,
+              "top": 0.6395486935866983,
+              "width": 0.29135180520570947,
+              "height": 0.03859857482185273,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "比對：\n\\( x=\\frac{14 \\pm \\sqrt{14^{2}-4 \\times 33}}{2}=\\frac{14 \\pm \\sqrt{196-132}}{2}=\\frac{14 \\pm 8}{2} \\Rightarrow x=11,3 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8313552021980286
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.17632241813602015,
+              "top": 0.7001187648456056,
+              "width": 0.06968933669185558,
+              "height": 0.007719714964370546,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "此 \\( a=11, b=3 \\).",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.655743595957756
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.19815281276238456,
+              "top": 0.7232779097387173,
+              "width": 0.06381192275398824,
+              "height": 0.009501187648456057,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\\( (a, b)=(11,3) \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7418563097715378
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15197313182199831,
+              "top": 0.745249406175772,
+              "width": 0.5054575986565911,
+              "height": 0.014251781472684086,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "7.求實數 \\( 3 \\sqrt{7} \\) 的小數部分為: <empty>。(請以精確值作答)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8330006569623947
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.163727959697733,
+              "top": 0.7773159144893111,
+              "width": 0.10411418975650713,
+              "height": 0.00831353919239905,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "求 \\( 3 \\sqrt{7} \\) 的小数部分。",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8213359087705612
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16204869857262805,
+              "top": 0.8046318289786223,
+              "width": 0.16540722082283796,
+              "height": 0.023752969121140142,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "解：\n\\( \\sqrt{7} \\approx 2.64575 \\Rightarrow 3 \\sqrt{7} \\approx 7.93725 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8775578022003174
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16204869857262805,
+              "top": 0.8408551068883611,
+              "width": 0.11335012594458438,
+              "height": 0.020190023752969122,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "小數部分為\n7.93725 - 7 = 0.93725",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8043342322111129
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16288832913518053,
+              "top": 0.8871733966745843,
+              "width": 0.13350125944584382,
+              "height": 0.007719714964370546,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "答案 : 小数部分 ≈ 0.937",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.801173809170723
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15197313182199831,
+              "top": 0.08907363420427554,
+              "width": 0.5398824517212426,
+              "height": 0.03147268408551069,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "8.設 \\( a 、 b \\) 為正數, 已知 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值為\n已知 \\( a, b>0 \\), 且 \\( 5 a+6 b=10 \\), 求乘積 \\( a b \\) 的最大值。",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8693598568439483
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1570109151973132,
+              "top": 0.13895486935866982,
+              "width": 0.1897565071368598,
+              "height": 0.007719714964370546,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "利用均值不等式 (AM-GM) 或代入法：",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8055205047130585
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1561712846347607,
+              "top": 0.16152019002375298,
+              "width": 0.17884130982367757,
+              "height": 0.17042755344418054,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "由 \\( 5 a+6 b=10 \\Rightarrow b=\\frac{10-5 a}{6} \\) 。\n\\( a b=a \\cdot \\frac{10-5 a}{6}=\\frac{10 a-5 a^{2}}{6} \\)\n為一開口向下的二次函數。最大值在\n\\( a=-\\frac{b}{2 a}=-\\frac{10}{2 \\times(-5)}=1 \\)\n代入 \\( a=1 \\) 得 \\( b=\\frac{10-5}{6}=\\frac{5}{6} \\) 。\n\\( a b=\\frac{1 \\times 5}{6}=\\frac{5}{6} \\)\n答案：最大值 \\( =\\frac{5}{6} \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8887030839920044
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15113350125944586,
+              "top": 0.35629453681710216,
+              "width": 0.6087321578505458,
+              "height": 0.048693586698337295,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "9.設 \\( x \\) 為正數, 求 \\( y=f(x)=\\frac{x}{12}+\\frac{75}{x} \\) 在 \\( x=<\\emptyset> \\) 時, \\( y \\) 有最小值。\n\\( y=f(x)=\\frac{x}{12}+\\frac{75}{x}, \\quad x>0 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8242142438888549
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16876574307304787,
+              "top": 0.4192399049881235,
+              "width": 0.1385390428211587,
+              "height": 0.00831353919239905,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "求 \\( y \\) 最小值及發生時的 \\( x \\).",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7814813524484634
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1670864819479429,
+              "top": 0.4477434679334917,
+              "width": 0.23005877413937867,
+              "height": 0.04809976247030879,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "解：\n對 \\( x \\) 取導數：\n\\( f^{\\prime}(x)=\\frac{1}{12}-\\frac{75}{x^{2}}=0 \\Rightarrow x^{2}=900 \\Rightarrow x=30 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7261538028717041
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16876574307304787,
+              "top": 0.5095011876484561,
+              "width": 0.16456759026028547,
+              "height": 0.032660332541567694,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "代回：\n\\( y_{\\min }=\\frac{30}{12}+\\frac{75}{30}=2.5+2.5=5 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6524078607559204
+            }
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.16876574307304787,
+              "top": 0.5706650831353919,
+              "width": 0.03190596137699412,
+              "height": 0.00831353919239905,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "答案:",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6436177879571914
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.16876574307304787,
+              "top": 0.581353919239905,
+              "width": 0.12846347607052896,
+              "height": 0.008907363420427554,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\\( x=30 \\) 時 \\( , y \\) 有最小值 5",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6450667947530746
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15029387069689337,
+              "top": 0.6027315914489311,
+              "width": 0.653232577665827,
+              "height": 0.03622327790973872,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "10.設實數 \\( x \\) 與 \\( y \\) 的範圍為 \\( 2 \\leq x \\leq 5,4 \\leq y \\leq 9 \\), 則 \\( 3 x-2 y \\) 的範圍為 \\( p \\leq \\) \\( 3 x-2 y \\leq q \\), 試求數對 \\( (p, q)= \\) :",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9691700875759125
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15869017632241814,
+              "top": 0.6561757719714965,
+              "width": 0.1343408900083963,
+              "height": 0.02494061757719715,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "已知\n\\( 2 \\leq x \\leq 5, \\quad 4 \\leq y \\leq 9 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7284184098243713
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15952980688497062,
+              "top": 0.6935866983372921,
+              "width": 0.1376994122586062,
+              "height": 0.012470308788598575,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "求 \\( 3 x-2 y \\) 的範圍 \\( [p, q] \\).",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7471723169088363
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15952980688497062,
+              "top": 0.7280285035629454,
+              "width": 0.19731318219983207,
+              "height": 0.00831353919239905,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "為線性表達式，極值出現在邊界。",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7651487290859222
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15952980688497062,
+              "top": 0.7595011876484561,
+              "width": 0.235936188077246,
+              "height": 0.02553444180522565,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "最大值 \\( q \\) : 取 \\( x \\) 最大 \\( \\backslash y \\) 最小\n\\( x=5, y=4 \\Rightarrow 3(5)-2(4)=15-8=7 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8518823385238647
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15869017632241814,
+              "top": 0.7998812351543944,
+              "width": 0.25272879932829556,
+              "height": 0.02672209026128266,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "最小值 \\( p \\) : 取 \\( x \\) 最小 \\( \\backslash y \\) 最大\n\\( x=2, y=9 \\Rightarrow 3(2)-2(9)=6-18=-12 \\)",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8527136087417603
+            }
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15869017632241814,
+              "top": 0.8562945368171021,
+              "width": 0.1746431570109152,
+              "height": 0.0498812351543943,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "答案：\n\\( (p, q)=(-12,7) \\)\n且範圍為 \\( -12 \\leq 3 x-2 y \\leq 7 \\).",
+            "image_url": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.941480141878128
+            }
+          }
+        ]
+      }
+    ],
+    "ocr": null,
+    "custom": null
+  },
+  "meta": {
+    "source_filename": "sample_ocr.json"
+  }
+}

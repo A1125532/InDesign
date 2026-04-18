@@ -1,0 +1,4 @@
+{
+    "template": "請將以下 OCR 辨識結果轉換為標準格式：\n\n{input_content}\n\n請輸出完整的 JSON，包含 meta 和 result 欄位。",
+    "variables": ["input_content"]
+  }

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <!-- 設定中文與手機/電腦皆能自動縮放 -->
+  <title>檔案轉換器 · 帥氣版</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+  <script>
+    // 以下是定義主色（紫藍+螢光藍）、深淺模式對應顏色、圓角、陰影與動畫
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#7c5cff",        // 更潮的紫藍主色
+            accent:  "#19c5ff",        // 螢光藍點綴
+            surface: {
+              light: "#ffffff",
+              dark:  "#12151b",
+            },
+            base: {
+              light: "#f6f7fb",
+              dark:  "#0b0e13",
+            },
+            line: {
+              light: "#e6e8ef",
+              dark:  "#222834",
+            },
+            text: {
+              light: "#0f1320",
+              dark:  "#eef2ff",
+            },
+            mute: {
+              light: "#6b7280",
+              dark:  "#9aa5b1",
+            },
+          },
+          fontFamily: { display: ["Manrope", "ui-sans-serif", "system-ui"] },
+          borderRadius: { DEFAULT: "0.75rem", lg: "1rem", xl: "1.25rem", full: "9999px" },
+          boxShadow: {
+            glass: "0 10px 30px -10px rgba(0,0,0,.35)",
+            inset: "inset 0 1px 0 rgba(255,255,255,.08)",
+          },
+          backdropBlur: { xs: '2px' },
+          keyframes: {
+            float: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-6px)' } },
+            pingSlow: { '0%': { transform: 'scale(1)', opacity: .8 }, '100%': { transform: 'scale(1.6)', opacity: 0 } }
+          },
+          animation: {
+            float: 'float 6s ease-in-out infinite',
+            pingSlow: 'pingSlow 2.5s ease-out infinite',
+          }
+        }
+      }
+    }
+  </script>
+
+     <!-- .glass 產生毛玻璃效果 -->
+     <!-- .scroll-smooth 啟用平滑滾動 -->
+  <style>
+    .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 500,'GRAD' 0,'opsz' 24}
+    .glass{backdrop-filter:saturate(140%) blur(10px)}
+    .scroll-smooth{scroll-behavior:smooth}
+  </style>
+</head>
+<body class="scroll-smooth font-display text-text-light dark:text-text-dark bg-base-light dark:bg-base-dark">
+  <!-- 背景裝飾：漸層氣泡 -->
+  <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute -top-24 -right-24 size-[26rem] rounded-full bg-gradient-to-br from-primary to-accent opacity-20 blur-[80px] animate-float"></div>
+    <div class="absolute -bottom-32 -left-20 size-[30rem] rounded-full bg-gradient-to-tr from-[#00f0ff] to-[#9b5cff] opacity-15 blur-[90px] animate-float" style="animation-delay:1.2s"></div>
+  </div>
+
+  <!-- 頂部導覽 -->
+  <header class="sticky top-0 z-30 border-b border-line-light/70 dark:border-line-dark/80 bg-surface-light/70 dark:bg-surface-dark/60 glass">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center gap-3">
+          <div class="relative">
+            <div class="size-9 rounded-xl bg-gradient-to-br from-primary to-accent grid place-items-center shadow-glass">
+              <span class="material-symbols-outlined text-white">auto_awesome</span>
+            </div>
+            <span class="absolute -right-1 -top-1 size-3 rounded-full bg-accent/80 animate-pingSlow"></span>
+          </div>
+          <h1 class="text-lg sm:text-xl font-extrabold tracking-tight">檔案轉換器</h1>
+          <span class="hidden sm:inline text-mute-light dark:text-mute-dark">· PDF ⟶ InDesign</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="themeToggle" class="group relative p-2 rounded-lg border border-line-light dark:border-line-dark bg-surface-light/70 dark:bg-surface-dark/70 hover:border-accent/60 hover:shadow-glass transition">
+            <span class="material-symbols-outlined block dark:hidden">dark_mode</span>
+            <span class="material-symbols-outlined hidden dark:block">light_mode</span>
+          </button>
+          <a href="#upload" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary to-accent text-white font-bold shadow-glass hover:opacity-95 transition">
+            <span class="material-symbols-outlined text-[18px]">cloud_upload</span> 開始上傳
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主體區 -->
+  <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 grid lg:grid-cols-[1fr,380px] gap-8">
+    <!-- 對話 + 上傳 -->
+    <section class="space-y-6">
+      <!-- hero 卡片 -->
+      <div class="relative rounded-xl border border-line-light dark:border-line-dark bg-surface-light/80 dark:bg-surface-dark/70 glass shadow-glass p-6 overflow-hidden">
+        <!-- 背景裝飾移到更低層級，避免壓到內容 -->
+        <div class="pointer-events-none absolute -right-10 -top-10 size-40 rounded-full bg-gradient-to-br from-primary to-accent opacity-20 blur-2xl -z-10"></div>
+
+        <!-- 兩欄：左 LOGO、右 文字；小螢幕自動換行 -->
+        <div class="relative grid grid-cols-[auto,1fr] gap-4 items-center">
+          <!-- LOGO 區：固定尺寸不壓縮，避免與標題互相撞位 -->
+          <!-- <div class="shrink-0 size-14 sm:size-16 rounded-2xl bg-gradient-to-br from-primary/90 to-accent/90 p-0.5">
+            <div class="size-full rounded-[1rem] bg-surface-light dark:bg-surface-dark grid place-items-center">
+              <img src="https://dummyimage.com/80x80/000/fff&text=RK" alt="Brand" class="w-9 sm:w-10 h-9 sm:h-10 object-contain"/>
+            </div> -->
+          </div>
+
+          <!-- 文案區：min-w-0 防止文字把 LOGO 擠爆；長字會換行 -->
+          <div class="min-w-0">
+            <h2 class="text-2xl sm:text-3xl font-extrabold leading-tight break-words">一鍵將 PDF 轉成可編輯的 InDesign</h2>
+            <p class="mt-1 text-mute-light dark:text-mute-dark">輸入你的 <strong>轉換規則</strong>（段落樣式、字元樣式、圖片錨附…），上傳 PDF，即可產生 INDD/IDML。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 對話串 -->
+      <div class="space-y-5">
+        <!-- 助理泡泡 -->
+        <div class="flex items-start gap-3">
+          <div class="size-10 rounded-xl bg-primary/15 text-primary grid place-items-center border border-primary/20 shrink-0"><span class="material-symbols-outlined">robot_2</span></div>
+          <div class="max-w-[78%] rounded-2xl rounded-tl-md p-4 border bg-surface-light/80 dark:bg-surface-dark/70 border-line-light dark:border-line-dark glass shadow-glass">
+            <p class="font-bold text-primary mb-1">轉換助理</p>
+            <p>歡迎！先提供你的 <strong>轉換規則</strong>，例如：
+              <code class="px-1 py-0.5 rounded bg-base-light dark:bg-base-dark">標題一 → H1</code>、
+              <code class="px-1 py-0.5 rounded bg-base-light dark:bg-base-dark">強調 → Bold</code>。
+            </p>
+          </div>
+        </div>
+        <!-- 使用者泡泡 -->
+        <div class="flex items-start gap-3 justify-end">
+          <div class="max-w-[78%] rounded-2xl rounded-tr-md p-4 border bg-gradient-to-br from-primary/95 to-accent/90 text-white border-transparent shadow-glass">
+            <p>段落樣式：主標題→H1、副標題→H2、內文→Body；字元樣式：強調→Bold、引用→Italic。</p>
+          </div>
+          <div class="size-10 rounded-xl grid place-items-center bg-white/20 text-white border border-white/30 dark:bg-surface-dark/70 dark:border-line-dark shrink-0"><span class="material-symbols-outlined">person</span></div>
+        </div>
+        <!-- 助理泡泡 2 -->
+        <div class="flex items-start gap-3">
+          <div class="size-10 rounded-xl bg-primary/15 text-primary grid place-items-center border border-primary/20 shrink-0"><span class="material-symbols-outlined">robot_2</span></div>
+          <div class="w-full rounded-2xl rounded-tl-md p-4 border bg-surface-light/80 dark:bg-surface-dark/70 border-line-light dark:border-line-dark glass shadow-glass">
+            <p class="font-bold text-primary mb-2">已套用規則，請上傳 PDF</p>
+            <a id="upload" class="block"></a>
+            <label for="file-upload" class="group cursor-pointer grid place-items-center gap-3 text-center p-8 border-2 border-dashed rounded-xl transition bg-base-light/60 dark:bg-base-dark/50 hover:border-accent/70">
+              <span class="material-symbols-outlined text-5xl text-mute-light dark:text-mute-dark group-hover:scale-105 transition">cloud_upload</span>
+              <div>
+                <p class="text-base font-semibold">拖放 PDF 至此，或 <span class="text-accent">點此選擇檔案</span></p>
+                <p class="text-sm text-mute-light dark:text-mute-dark">支援 .pdf（掃描檔將自動 OCR）</p>
+              </div>
+              <input id="file-upload" type="file" accept=".pdf" class="hidden"/>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- 置底輸入列 -->
+      <div class="sticky bottom-4">
+        <div class="rounded-2xl border bg-surface-light/80 dark:bg-surface-dark/70 border-line-light dark:border-line-dark glass shadow-glass p-2 flex items-end gap-2">
+          <textarea id="rules" rows="1" placeholder="輸入轉換規則（支援多行），按 Enter 送出…" class="flex-grow bg-transparent border-0 focus:ring-0 resize-none p-3 text-[15px] placeholder:text-mute-light dark:placeholder:text-mute-dark"></textarea>
+          <button id="send" class="group relative inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-accent text-white font-bold shadow-glass hover:opacity-95 transition">
+            <span class="material-symbols-outlined">send</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 側邊：設定/狀態卡 -->
+    <aside class="space-y-6">
+      <div class="rounded-xl border bg-surface-light/80 dark:bg-surface-dark/70 border-line-light dark:border-line-dark glass shadow-glass p-5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-extrabold">轉換設定</h3>
+          <span class="text-xs px-2 py-1 rounded-full bg-primary/15 text-primary border border-primary/20">Beta</span>
+        </div>
+        <div class="mt-4 space-y-4">
+          <label class="flex items-center justify-between text-sm">
+            <span class="text-mute-light dark:text-mute-dark">輸出格式</span>
+            <select class="rounded-lg bg-base-light/60 dark:bg-base-dark/60 border-line-light dark:border-line-dark">
+              <option>INDD（需 InDesign）</option>
+              <option>IDML（無頭）</option>
+            </select>
+          </label>
+          <label class="flex items-center justify-between text-sm">
+            <span class="text-mute-light dark:text-mute-dark">OCR（掃描檔）</span>
+            <input type="checkbox" class="rounded border-line-light dark:border-line-dark text-primary focus:ring-primary" checked>
+          </label>
+          <label class="flex items-center justify-between text-sm">
+            <span class="text-mute-light dark:text-mute-dark">自動套用樣式</span>
+            <input type="checkbox" class="rounded border-line-light dark:border-line-dark text-primary focus:ring-primary" checked>
+          </label>
+        </div>
+      </div>
+
+      <div class="rounded-xl border bg-surface-light/80 dark:bg-surface-dark/70 border-line-light dark:border-line-dark glass shadow-glass p-5">
+        <h3 class="text-lg font-extrabold">轉換狀態</h3>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary">task_alt</span> 規則校驗</li>
+          <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary">auto_fix</span> 版面偵測</li>
+          <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary">calendar_view_month</span> JSON 生成</li>
+          <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary">format_shapes</span> INDD/IDML 產出</li>
+        </ul>
+      </div>
+
+      <div class="rounded-xl border bg-surface-light/80 dark:bg-surface-dark/70 border-line-light dark:border-line-dark glass shadow-glass p-5">
+        <h3 class="text-lg font-extrabold">快速提示</h3>
+        <ul class="mt-3 list-disc pl-5 text-sm text-mute-light dark:text-mute-dark space-y-1">
+          <li><strong>H1/H2/H3</strong> 對應到「段落樣式」。</li>
+          <li><strong>Bold/Italic</strong> 對應到「字元樣式」。</li>
+          <li>圖片若需錨附：<code class="px-1 py-0.5 rounded bg-base-light dark:bg-base-dark">Figure(anchor:inline)</code></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+
+
+  <!-- 底部 -->
+  <footer class="mt-8 border-t border-line-light dark:border-line-dark/80 py-8 text-center text-sm text-mute-light dark:text-mute-dark">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <p>© 2025 ConvertFast · All rights reserved.</p>
+    </div>
+  </footer>
+
+
+    <!-- 📥 下載結果 -->
+  <div id="download-section" class="hidden fixed bottom-6 right-6 z-50">
+    <a id="download-btn"
+      href="/download/result.json"
+      download="result.json"
+      class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-primary to-accent text-white font-bold shadow-glass hover:opacity-95 transition">
+      <span class="material-symbols-outlined text-[20px]">download</span>
+      下載結果 JSON
+    </a>
+  </div>
+  <!-- 🔄 處理進度條 -->
+<div id="progress-modal" class="hidden fixed inset-0 flex items-center justify-center bg-black/50 z-50">
+  <div class="w-[300px] rounded-xl bg-surface-light dark:bg-surface-dark p-6 shadow-glass text-center">
+    <p id="progress-text" class="font-semibold text-primary mb-3">正在處理中...</p>
+    <div class="w-full bg-line-light dark:bg-line-dark rounded-full h-3 overflow-hidden">
+      <div id="progress-bar" class="bg-gradient-to-r from-primary to-accent h-full w-0 transition-all duration-300"></div>
+    </div>
+  </div>
+</div>
+
+<!-- 🔔 全域提示條 -->
+<div id="toast" class="hidden fixed top-5 left-1/2 -translate-x-1/2 px-6 py-3 rounded-lg text-white font-semibold shadow-glass z-[100] transition-all duration-500 opacity-0"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // ---------- Toast 函式 ----------
+  const toast = document.getElementById('toast');
+  function showToast(msg, type = 'info') {
+    toast.textContent = msg;
+    toast.classList.remove('hidden', 'opacity-0');
+    toast.style.backgroundColor =
+      type === 'success' ? '#16a34a' : type === 'error' ? '#dc2626' : '#2563eb';
+    toast.classList.add('opacity-100');
+    setTimeout(() => toast.classList.add('opacity-0'), 2500);
+    setTimeout(() => toast.classList.add('hidden'), 3000);
+  }
+
+  // ---------- 主題切換 ----------
+  const root = document.documentElement;
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && prefersDark)) {
+    root.classList.add('dark');
+  }
+  document.getElementById('themeToggle').addEventListener('click', () => {
+    root.classList.toggle('dark');
+    localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
+  });
+
+  // ---------- 輸入框 ----------
+  const ta = document.getElementById('rules');
+  const sendBtn = document.getElementById('send');
+  function autosize() { ta.style.height = 'auto'; ta.style.height = ta.scrollHeight + 'px'; }
+  ['input', 'change'].forEach(e => ta.addEventListener(e, autosize));
+  ta.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendBtn.click(); }
+  });
+
+  // ---------- 右上角上傳 ----------
+  const uploadBtnTop = document.querySelector('a[href="#upload"]');
+  if (uploadBtnTop) uploadBtnTop.addEventListener('click', e => {
+    e.preventDefault();
+    document.getElementById('file-upload').click();
+  });
+
+  // ---------- 上傳 ----------
+  let uploadedFilename = "";
+  const fileInput = document.getElementById('file-upload');
+  const dropZone = document.querySelector('label[for="file-upload"]');
+
+  fileInput.addEventListener('change', async () => {
+    const file = fileInput.files[0];
+    if (!file) return;
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+      const res = await fetch('/upload', { method: 'POST', body: formData });
+      let data = {};
+      try { data = await res.json(); } catch { data = { error: '伺服器回傳非 JSON 格式' }; }
+
+      if (res.ok) {
+        uploadedFilename = data.filename || file.name;
+        const infoHTML = `
+          <div class="flex flex-col items-center justify-center gap-3 p-6 text-center">
+            <span class="material-symbols-outlined text-5xl text-primary">check_circle</span>
+            <p class="font-semibold text-primary">已成功上傳</p>
+            <p class="text-sm text-mute-light dark:text-mute-dark">${uploadedFilename}</p>
+          </div>`;
+        dropZone.querySelector('div').innerHTML = infoHTML;
+        dropZone.classList.remove('border-dashed');
+        dropZone.classList.add('border-solid', 'border-primary/60');
+        showToast("✅ 已成功上傳", "success");
+      } else {
+        showToast(data.error || "❌ 上傳失敗", "error");
+      }
+    } catch {
+      showToast("❌ 上傳發生錯誤", "error");
+    }
+  });
+
+  // ---------- 拖曳上傳 ----------
+  ['dragenter','dragover','dragleave','drop'].forEach(ev => {
+    dropZone.addEventListener(ev, e => { e.preventDefault(); e.stopPropagation(); });
+  });
+  ['dragenter','dragover'].forEach(ev => dropZone.addEventListener(ev, () => dropZone.classList.add('border-accent')));
+  ['dragleave','drop'].forEach(ev => dropZone.addEventListener(ev, () => dropZone.classList.remove('border-accent')));
+  dropZone.addEventListener('drop', e => {
+    const files = e.dataTransfer.files;
+    if (files.length > 0) {
+      fileInput.files = files;
+      fileInput.dispatchEvent(new Event('change'));
+    }
+  });
+
+  // ---------- 傳送轉換規則 ----------
+  sendBtn.addEventListener('click', async () => {
+    const rules = ta.value.trim();
+    if (!rules) return showToast("請輸入轉換規則！", "error");
+    if (!uploadedFilename) return showToast("請先上傳 PDF 檔案！", "error");
+
+    const modal = document.getElementById('progress-modal');
+    const bar = document.getElementById('progress-bar');
+    const text = document.getElementById('progress-text');
+    modal.classList.remove('hidden');
+    bar.style.width = '0%';
+    text.textContent = '正在校驗規則... (10%)';
+
+    try {
+      const steps = [
+        { text: '校驗規則中...', progress: 20 },
+        { text: '進行版面偵測...', progress: 45 },
+        { text: '產生 JSON 結構...', progress: 70 },
+        { text: '輸出中...', progress: 95 }
+      ];
+      let i = 0;
+      const interval = setInterval(() => {
+        if (i < steps.length) {
+          text.textContent = `${steps[i].text} (${steps[i].progress}%)`;
+          bar.style.width = steps[i].progress + '%';
+          i++;
+        }
+      }, 2000);
+
+      const res = await fetch('/process', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ rules: rules, filename: uploadedFilename })
+      });
+
+      clearInterval(interval);
+      let data = {};
+      try { data = await res.json(); } catch { data = { error: '伺服器回傳非 JSON 格式' }; }
+
+      if (res.ok) {
+        bar.style.width = '100%';
+        text.textContent = '✅ 處理完成 (100%)';
+        setTimeout(() => modal.classList.add('hidden'), 1000);
+        showToast(data.message || "✅ 處理完成", "success");
+        document.getElementById('download-section').classList.remove('hidden');
+        const btn = document.getElementById('download-btn');
+        if (data.json_filename) {
+          btn.href = `/download/${data.json_filename}`;
+          btn.download = data.json_filename;
+        }
+      } else {
+        text.textContent = '❌ 處理失敗';
+        bar.style.width = '100%';
+        showToast(data.error || "❌ 處理失敗", "error");
+      }
+    } catch (err) {
+      text.textContent = '⚠️ 執行錯誤';
+      bar.style.width = '100%';
+      showToast("❌ 執行發生錯誤", "error");
+      console.error(err);
+    }
+  });
+});
+
+let uploadedFileName = "";
+
+document.getElementById("uploadForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const fileInput = document.getElementById("file");
+  const formData = new FormData();
+  formData.append("file", fileInput.files[0]);
+
+  const uploadRes = await fetch("/upload", { method: "POST", body: formData });
+  const uploadData = await uploadRes.json();
+
+  if (uploadData.filename) {
+    uploadedFileName = uploadData.filename;
+    console.log("✅ 上傳完成：", uploadedFileName);
+
+    // 接著呼叫 /process 開始解析
+    const processRes = await fetch("/process", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ filename: uploadedFileName, rules: "" })
+    });
+    const processData = await processRes.json();
+
+    if (processData.json_file) {
+      const section = document.getElementById("download-section");
+      const btn = document.getElementById("download-btn");
+      btn.href = `/download/${processData.json_file}`;
+      btn.download = processData.json_file;
+      section.classList.remove("hidden");
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+</body>
+</html>

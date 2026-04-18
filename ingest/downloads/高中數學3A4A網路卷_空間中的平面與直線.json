@@ -1,0 +1,385 @@
+{
+  "duration": 10.288832187652588,
+  "job_id": "dbc22b1d-a3fb-4f43-ae3b-485e1c696c23",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.023752969121140142,
+              "left": 0.055415617128463476,
+              "page": 1,
+              "top": 0.05463182897862233,
+              "width": 0.17296389588581024,
+              "original_page": 1
+            },
+            "content": "高中數學A",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7043666243553162
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.021377672209026127,
+              "left": 0.3140218303946264,
+              "page": 1,
+              "top": 0.0688836104513064,
+              "width": 0.2837951301427372,
+              "original_page": 1
+            },
+            "content": "空間中的平面與直線",
+            "type": "Title",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7710575222969056
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.7145256087321579,
+              "page": 1,
+              "top": 0.057007125890736345,
+              "width": 0.031066330814441646,
+              "original_page": 1
+            },
+            "content": "班級",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7203105121850968
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.8488664987405542,
+              "page": 1,
+              "top": 0.05760095011876484,
+              "width": 0.030226700251889168,
+              "original_page": 1
+            },
+            "content": "座號",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6965542018413544
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.05877413937867338,
+              "page": 1,
+              "top": 0.09501187648456057,
+              "width": 0.16876574307304787,
+              "original_page": 1
+            },
+            "content": "第3-4冊 評量卷",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7886840879917145
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.7136859781696053,
+              "page": 1,
+              "top": 0.08847980997624703,
+              "width": 0.02938706968933669,
+              "original_page": 1
+            },
+            "content": "姓名",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.772357439994812
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.8480268681780017,
+              "page": 1,
+              "top": 0.08907363420427554,
+              "width": 0.030226700251889168,
+              "original_page": 1
+            },
+            "content": "得分",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7431024968624115
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05581878879574302,
+              "left": 0.042760251651382766,
+              "page": 1,
+              "top": 0.13152530697349132,
+              "width": 0.7989890661487852,
+              "original_page": 1
+            },
+            "content": "◎填充題 (占 100 分，每題 10 分)\n\n1. 點 \\( A(2,-1,1) \\) 與 \\( B(-4,9,5) \\)，求 \\( \\overline{A B} \\) 的垂直平分面方程式為_______。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7764236211776734
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03592060297515217,
+              "left": 0.0450403676325288,
+              "page": 1,
+              "top": 0.3069845820266108,
+              "width": 0.9061974109870661,
+              "original_page": 1
+            },
+            "content": "2.空間中三點 \\( A(1,2,3), B(1,2,-1), C(2,0,-2) \\) 所決定的平面方程式為：\\( 4 x+5 y-8 z=6 \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9924103260040283
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.051647231584490055,
+              "left": 0.04687202126913767,
+              "page": 1,
+              "top": 0.46381927272769446,
+              "width": 0.6239606663522151,
+              "original_page": 1
+            },
+            "content": "3. 兩平面 \\( E_{1}: 3 x+m y+z=5 \\) 、 \\( E_{2}: 6 x-3 y+2 z=2 \\) ，求：\n(1) 若 \\( E_{1} \\perp E_{2} \\)，則 \\( m= \\)\n(2) 若 \\( E_{1} / / E_{2} \\)，則 \\( m= \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9735610485076904
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03627336733131681,
+              "left": 0.04575434379673725,
+              "page": 1,
+              "top": 0.6328254029190172,
+              "width": 0.9119076540648287,
+              "original_page": 1
+            },
+            "content": "4.若兩平行平面 \\( x+2 y+3 z=6 \\) 與 \\( 2 x+4 y+6 z=k \\) 的距離為 \\( \\sqrt{14} \\), 則 \\( k= \\). (有兩解)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9861871719360351
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03312802711178741,
+              "left": 0.045649527702683865,
+              "page": 1,
+              "top": 0.7882926741575119,
+              "width": 0.8030683547883951,
+              "original_page": 1
+            },
+            "content": "5.若平面 \\( E_{1}: 2 x+y-z=6 \\) 與 \\( E_{2}: 2 x-2 y+2 a z=5 \\) 的銳夾角為 \\( 60^{\\circ} \\), 求 \\( a= \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9728664636611939
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.024430952276016923,
+              "left": 0.04480589667255392,
+              "page": 1,
+              "top": 0.9599165021665306,
+              "width": 0.06601718931414319,
+              "original_page": 1
+            },
+            "content": "曼景",
+            "type": "Figure",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7176698505878449
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.021377672209026127,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.9608076009501187,
+              "width": 0.10327455919395466,
+              "original_page": 1
+            },
+            "content": "數位文化(股)公司\n版權所有‧請勿翻印",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.753919717669487
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.869857262804366,
+              "page": 1,
+              "top": 0.9661520190023754,
+              "width": 0.07388748950461797,
+              "original_page": 1
+            },
+            "content": "TMH410T",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8546205163002014
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05075497072269684,
+              "left": 0.04685759524354206,
+              "page": 2,
+              "top": 0.03381267239532108,
+              "width": 0.9106457419599634,
+              "original_page": 2
+            },
+            "content": "6.求平面 \\( x+2 y-2 z=2 \\) 與平面 \\( 12 y+5 z=1 \\) 的兩個交角平分面方程式為：\\( <empty> \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9809595346450806
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04767514407776314,
+              "left": 0.047480524737328465,
+              "page": 2,
+              "top": 0.20659171713786,
+              "width": 0.7164619343306816,
+              "original_page": 2
+            },
+            "content": "7. 兩平面 \\( 2 x-y+z=1 \\) 與 \\( x-2 y+z=-2 \\) 的交線參數式為 <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9835078716278076
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06483281876298991,
+              "left": 0.04640728160175929,
+              "page": 2,
+              "top": 0.38146867548201824,
+              "width": 0.8919513103443469,
+              "original_page": 2
+            },
+            "content": "8. \\( L_{1}: \\frac{x+2}{2}=\\frac{y-3}{-1}=\\frac{z+1}{3} \\) 與 \\( L_{2}: x-1=\\frac{y-2}{2}=\\frac{z+3}{-1} \\) 為兩歪斜線，則含 \\( L_{1} \\) 且平行 \\( L_{2} \\) 的平面方程式為：_______。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8207920789718628
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0345058848908848,
+              "left": 0.04650568862005405,
+              "page": 2,
+              "top": 0.5847931995527761,
+              "width": 0.9040086875934745,
+              "original_page": 2
+            },
+            "content": "9.空間中點 \\( (1,2,-4) \\) 對平面 \\( x+2 y-3 z=3 \\) 的投影點為：\\( <empty> \\)，對稱點為 \\( <empty> \\).",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.994084095954895
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05893814195646526,
+              "left": 0.0453069800593891,
+              "page": 2,
+              "top": 0.7636579572446556,
+              "width": 0.8444914061116331,
+              "original_page": 2
+            },
+            "content": "10.空間中歪斜的兩直線 \\( L_{1}: \\frac{x+1}{2}=\\frac{y+2}{2}=z+2 、 L_{2}: \\frac{4-x}{2}=y+4=\\frac{z-1}{2} \\) 間之最短距離為",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8666289091110229
+            },
+            "image_url": null
+          }
+        ],
+        "content": "高中數學A\n\n# 空間中的平面與直線\n\n班級\n\n座號\n\n第3-4冊 評量卷\n\n姓名\n\n得分\n\n◎填充題 (占 100 分，每題 10 分)\n\n1. 點 \\( A(2,-1,1) \\) 與 \\( B(-4,9,5) \\)，求 \\( \\overline{A B} \\) 的垂直平分面方程式為_______。\n\n2.空間中三點 \\( A(1,2,3), B(1,2,-1), C(2,0,-2) \\) 所決定的平面方程式為：\\( 4 x+5 y-8 z=6 \\)\n\n3. 兩平面 \\( E_{1}: 3 x+m y+z=5 \\) 、 \\( E_{2}: 6 x-3 y+2 z=2 \\) ，求：\n(1) 若 \\( E_{1} \\perp E_{2} \\)，則 \\( m= \\)\n(2) 若 \\( E_{1} / / E_{2} \\)，則 \\( m= \\)\n\n4.若兩平行平面 \\( x+2 y+3 z=6 \\) 與 \\( 2 x+4 y+6 z=k \\) 的距離為 \\( \\sqrt{14} \\), 則 \\( k= \\). (有兩解)\n\n5.若平面 \\( E_{1}: 2 x+y-z=6 \\) 與 \\( E_{2}: 2 x-2 y+2 a z=5 \\) 的銳夾角為 \\( 60^{\\circ} \\), 求 \\( a= \\)\n\n曼景\n\n數位文化(股)公司\n版權所有‧請勿翻印\n\nTMH410T\n\n6.求平面 \\( x+2 y-2 z=2 \\) 與平面 \\( 12 y+5 z=1 \\) 的兩個交角平分面方程式為：\\( <empty> \\)\n\n7. 兩平面 \\( 2 x-y+z=1 \\) 與 \\( x-2 y+z=-2 \\) 的交線參數式為 <empty>\n\n8. \\( L_{1}: \\frac{x+2}{2}=\\frac{y-3}{-1}=\\frac{z+1}{3} \\) 與 \\( L_{2}: x-1=\\frac{y-2}{2}=\\frac{z+3}{-1} \\) 為兩歪斜線，則含 \\( L_{1} \\) 且平行 \\( L_{2} \\) 的平面方程式為：_______。\n\n9.空間中點 \\( (1,2,-4) \\) 對平面 \\( x+2 y-3 z=3 \\) 的投影點為：\\( <empty> \\)，對稱點為 \\( <empty> \\).\n\n10.空間中歪斜的兩直線 \\( L_{1}: \\frac{x+1}{2}=\\frac{y+2}{2}=z+2 、 L_{2}: \\frac{4-x}{2}=y+4=\\frac{z-1}{2} \\) 間之最短距離為",
+        "embed": "高中數學A\n\n# 空間中的平面與直線\n\n班級\n\n座號\n\n第3-4冊 評量卷\n\n姓名\n\n得分\n\n◎填充題 (占 100 分，每題 10 分)\n\n1. 點 \\( A(2,-1,1) \\) 與 \\( B(-4,9,5) \\)，求 \\( \\overline{A B} \\) 的垂直平分面方程式為_______。\n\n2.空間中三點 \\( A(1,2,3), B(1,2,-1), C(2,0,-2) \\) 所決定的平面方程式為：\\( 4 x+5 y-8 z=6 \\)\n\n3. 兩平面 \\( E_{1}: 3 x+m y+z=5 \\) 、 \\( E_{2}: 6 x-3 y+2 z=2 \\) ，求：\n(1) 若 \\( E_{1} \\perp E_{2} \\)，則 \\( m= \\)\n(2) 若 \\( E_{1} / / E_{2} \\)，則 \\( m= \\)\n\n4.若兩平行平面 \\( x+2 y+3 z=6 \\) 與 \\( 2 x+4 y+6 z=k \\) 的距離為 \\( \\sqrt{14} \\), 則 \\( k= \\). (有兩解)\n\n5.若平面 \\( E_{1}: 2 x+y-z=6 \\) 與 \\( E_{2}: 2 x-2 y+2 a z=5 \\) 的銳夾角為 \\( 60^{\\circ} \\), 求 \\( a= \\)\n\n曼景\n\n數位文化(股)公司\n版權所有‧請勿翻印\n\nTMH410T\n\n6.求平面 \\( x+2 y-2 z=2 \\) 與平面 \\( 12 y+5 z=1 \\) 的兩個交角平分面方程式為：\\( <empty> \\)\n\n7. 兩平面 \\( 2 x-y+z=1 \\) 與 \\( x-2 y+z=-2 \\) 的交線參數式為 <empty>\n\n8. \\( L_{1}: \\frac{x+2}{2}=\\frac{y-3}{-1}=\\frac{z+1}{3} \\) 與 \\( L_{2}: x-1=\\frac{y-2}{2}=\\frac{z+3}{-1} \\) 為兩歪斜線，則含 \\( L_{1} \\) 且平行 \\( L_{2} \\) 的平面方程式為：_______。\n\n9.空間中點 \\( (1,2,-4) \\) 對平面 \\( x+2 y-3 z=3 \\) 的投影點為：\\( <empty> \\)，對稱點為 \\( <empty> \\).\n\n10.空間中歪斜的兩直線 \\( L_{1}: \\frac{x+1}{2}=\\frac{y+2}{2}=z+2 、 L_{2}: \\frac{4-x}{2}=y+4=\\frac{z-1}{2} \\) 間之最短距離為",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 2,
+    "credits": 4.0
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/4bf07727-5b53-49e2-848c-6acdac975439.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20251022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251022T165046Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=171b5fde83368ddb4fd6be2f079ab8f0cbcf5084248bac42d1ceb216f661d661",
+  "studio_link": "https://studio.reducto.ai/job/dbc22b1d-a3fb-4f43-ae3b-485e1c696c23"
+}

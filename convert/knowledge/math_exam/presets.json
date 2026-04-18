@@ -1,0 +1,27 @@
+{
+    "question_types": {
+      "multiple_choice": {
+        "pattern": "\\([A-E]\\)",
+        "format": "[problem]...\r[option] (A)... (B)..."
+      },
+      "fill_in_blank": {
+        "pattern": "______",
+        "format": "[problem]...______"
+      },
+      "calculation": {
+        "keywords": ["求", "化簡", "證明", "計算"],
+        "format": "[problem]...\r[solution]..."
+      }
+    },
+    "latex_symbols": {
+      "fractions": "\\frac{}{}", 
+      "sqrt": "\\sqrt{}",
+      "inequalities": ["\\leq", "\\geq", "\\neq"],
+      "greek": ["\\alpha", "\\beta", "\\sqrt"]
+    },
+    "answer_markers": {
+      "chinese": ["答案", "解", "題意", "性質"],
+      "symbols": ["→", "∴", "∵"]
+    }
+  }
+  

@@ -1,0 +1,349 @@
+{
+  "duration": 15.69236969947815,
+  "job_id": "0688dbbd-f131-4d0d-a647-ab2fc92e816e",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.022565320665083134,
+              "left": 0.0688497061293031,
+              "page": 1,
+              "top": 0.054038004750593824,
+              "width": 0.14273719563392107,
+              "original_page": 1
+            },
+            "content": "高中數學",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6781546026468277
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.05877413937867338,
+              "page": 1,
+              "top": 0.09501187648456057,
+              "width": 0.16876574307304787,
+              "original_page": 1
+            },
+            "content": "第1-2冊 評量卷",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7590237557888031
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.056485975723085384,
+              "left": 0.4043220885154282,
+              "page": 1,
+              "top": 0.0491165423902933,
+              "width": 0.4857450368322313,
+              "original_page": 1
+            },
+            "content": "三角比\n\n班級: <empty>\n座號: <empty>\n\n姓名: <empty>\n得分: <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7723029613494873
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08290243262066693,
+              "left": 0.04372191409119831,
+              "page": 1,
+              "top": 0.13158032560008723,
+              "width": 0.6931188344755261,
+              "original_page": 1
+            },
+            "content": "◎填充題（占 100 分，每題 10 分）\n\n1. \\( \\Delta A B C \\) 如右圖，\\( \\overline{B C} \\perp \\overline{A C} \\)，D 點在 \\( \\overline{A C} \\) 上且 \\( \\overline{A D}=\\overline{B D} \\)，若 \\( \\sin \\angle B D C=\\frac{1}{2} \\)\n則 \\( \\tan A= \\)\n\n。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9918554544448852
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07049500744020004,
+              "left": 0.7711790967247848,
+              "page": 1,
+              "top": 0.16013082472558826,
+              "width": 0.18626069422032432,
+              "original_page": 1
+            },
+            "content": "A\nB\nC\nD",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9732522964477539
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.051984121000964965,
+              "left": 0.04624509771364662,
+              "page": 1,
+              "top": 0.31956721145013733,
+              "width": 0.8901536046307593,
+              "original_page": 1
+            },
+            "content": "2.若 \\( \\theta \\) 滿足 \\( 4 \\sin ^{2} \\theta+4 \\cos \\theta-1=0 \\), 又 \\( \\tan \\theta>0 \\), 且 \\( A \\) 點極坐標為 \\( [6, \\theta] \\), 則 \\( A \\) 點的直角坐標為",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9733366250991822
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03339456662429483,
+              "left": 0.046630382137474745,
+              "page": 1,
+              "top": 0.4739586836934939,
+              "width": 0.5022203940288246,
+              "original_page": 1
+            },
+            "content": "3.試求 \\( \\sin ^{2} 26^{\\circ}+\\sin ^{2} 64^{\\circ}+\\tan 225^{\\circ} \\cos 240^{\\circ}= \\) : <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.989611554145813
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05966592457968379,
+              "left": 0.04620492328224214,
+              "page": 1,
+              "top": 0.6283591807313317,
+              "width": 0.6739608258584484,
+              "original_page": 1
+            },
+            "content": "4.如右示意圖，在直角 \\( \\Delta A B C \\) 中，\\( \\angle A=90^{\\circ}, \\angle C=\\theta, \\sin \\theta+\\cos \\theta=\\frac{6}{5} \\)， \\( \\overline{B C}=20 \\), 則 \\( \\Delta A B C \\) 面積為______。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.99261314868927
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09864165607370844,
+              "left": 0.8050588356357578,
+              "page": 1,
+              "top": 0.6307162105895561,
+              "width": 0.15256185715785053,
+              "original_page": 1
+            },
+            "content": "20\nθ",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9921506404876709
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03512718218805671,
+              "left": 0.04532742440250118,
+              "page": 1,
+              "top": 0.8068779517239459,
+              "width": 0.9127324550317977,
+              "original_page": 1
+            },
+            "content": "5.在 \\( \\Delta A B C \\) 中，\\( \\angle B=120^{\\circ}, \\overline{A B}=6, \\overline{B C}=4 \\)，若 \\( \\overline{B D} \\) 為 \\( \\angle A B C \\) 的內角平分線，則 \\( \\overline{B D}= \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9892298936843872
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.025107413176402908,
+              "left": 0.04481948673174623,
+              "page": 1,
+              "top": 0.9595708779088109,
+              "width": 0.06610479923379611,
+              "original_page": 1
+            },
+            "content": "曼景",
+            "type": "Figure",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7379921138286591
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.021377672209026127,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.9608076009501187,
+              "width": 0.10327455919395466,
+              "original_page": 1
+            },
+            "content": "數位文化(股)公司\n版權所有‧請勿翻印",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7987759977579116
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.869857262804366,
+              "page": 1,
+              "top": 0.9661520190023754,
+              "width": 0.07388748950461797,
+              "original_page": 1
+            },
+            "content": "TMH409T",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.85806884765625
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11982907591976066,
+              "left": 0.04704809308952889,
+              "page": 2,
+              "top": 0.03395907612707723,
+              "width": 0.9119847615559896,
+              "original_page": 2
+            },
+            "content": "6.如右圖，圓內接四邊形 \\( A B C D \\), \\( \\angle B A C=30^{\\circ}, \\angle C A D=45^{\\circ} \\), \\( \\overline{C D}=3 \\sqrt{2} \\), 則 \\( \\overline{B C}= \\) _______ 。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8741778373718261
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04732346704623478,
+              "left": 0.04720425545718868,
+              "page": 2,
+              "top": 0.21033704309169018,
+              "width": 0.8592971622393374,
+              "original_page": 2
+            },
+            "content": "7.已知 \\( ABCD \\) 是圓內接四邊形，若 \\( \\overline{A B} 、 \\overline{B C} 、 \\overline{C D} 、 \\overline{D A} \\) 的長分別為 \\( 3 、 3 、 3 、 5 \\)，則對角線 \\( \\overline{A C}= \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9728484869003295
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04484949542337812,
+              "left": 0.047985016048505066,
+              "page": 2,
+              "top": 0.3855541528262322,
+              "width": 0.9074041781357414,
+              "original_page": 2
+            },
+            "content": "8. 甲、乙、丙三人分別在不共線的 \\( A \\) 、 \\( B \\) 、 \\( C \\) 三點看到天空中有一顆氣球，三人所測得的仰角皆為 \\( 45^{\\circ} \\)，且 \\( \\overline{A B}=100 \\sqrt{3} \\) 公尺， \\( \\angle A C B=60^{\\circ} \\)，則氣球的高度為________公尺。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7874383687973022
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0500495892522454,
+              "left": 0.04673919229323278,
+              "page": 2,
+              "top": 0.5581266715804075,
+              "width": 0.910271456419771,
+              "original_page": 2
+            },
+            "content": "9. \\( \\Delta A B C \\) 的內切圓分別與 \\( \\overline{A B} 、 \\overline{B C} 、 \\overline{A C} \\) 相切於 \\( D 、 E 、 F \\) 點，已知 \\( \\overline{A D}=3 ， \\overline{B E}=4 ， \\overline{C F}=5 \\)，則 \\( \\Delta A B C \\) 面積 =_________。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9598490476608277
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05327774736490499,
+              "left": 0.044953881943556165,
+              "page": 2,
+              "top": 0.7322273163784145,
+              "width": 0.9049018680498843,
+              "original_page": 2
+            },
+            "content": "10. 坐標平面上兩直線 \\( L_{1}: y=\\frac{1}{\\sqrt{3}} x \\) 與 \\( L_{2}: y=-x \\)，若直線 \\( L_{1} \\) 和 \\( L_{2} \\) 的夾角為 \\( \\theta \\)，則 \\( \\theta= \\) 。 (兩解)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.971402645111084
+            },
+            "image_url": null
+          }
+        ],
+        "content": "高中數學\n\n第1-2冊 評量卷\n\n三角比\n\n班級: <empty>\n座號: <empty>\n\n姓名: <empty>\n得分: <empty>\n\n◎填充題（占 100 分，每題 10 分）\n\n1. \\( \\Delta A B C \\) 如右圖，\\( \\overline{B C} \\perp \\overline{A C} \\)，D 點在 \\( \\overline{A C} \\) 上且 \\( \\overline{A D}=\\overline{B D} \\)，若 \\( \\sin \\angle B D C=\\frac{1}{2} \\)\n則 \\( \\tan A= \\)\n\n。\n\nA\nB\nC\nD\n\n2.若 \\( \\theta \\) 滿足 \\( 4 \\sin ^{2} \\theta+4 \\cos \\theta-1=0 \\), 又 \\( \\tan \\theta>0 \\), 且 \\( A \\) 點極坐標為 \\( [6, \\theta] \\), 則 \\( A \\) 點的直角坐標為\n\n3.試求 \\( \\sin ^{2} 26^{\\circ}+\\sin ^{2} 64^{\\circ}+\\tan 225^{\\circ} \\cos 240^{\\circ}= \\) : <empty>\n\n4.如右示意圖，在直角 \\( \\Delta A B C \\) 中，\\( \\angle A=90^{\\circ}, \\angle C=\\theta, \\sin \\theta+\\cos \\theta=\\frac{6}{5} \\)， \\( \\overline{B C}=20 \\), 則 \\( \\Delta A B C \\) 面積為______。\n\n20\nθ\n\n5.在 \\( \\Delta A B C \\) 中，\\( \\angle B=120^{\\circ}, \\overline{A B}=6, \\overline{B C}=4 \\)，若 \\( \\overline{B D} \\) 為 \\( \\angle A B C \\) 的內角平分線，則 \\( \\overline{B D}= \\)\n\n曼景\n\n數位文化(股)公司\n版權所有‧請勿翻印\n\nTMH409T\n\n6.如右圖，圓內接四邊形 \\( A B C D \\), \\( \\angle B A C=30^{\\circ}, \\angle C A D=45^{\\circ} \\), \\( \\overline{C D}=3 \\sqrt{2} \\), 則 \\( \\overline{B C}= \\) _______ 。\n\n7.已知 \\( ABCD \\) 是圓內接四邊形，若 \\( \\overline{A B} 、 \\overline{B C} 、 \\overline{C D} 、 \\overline{D A} \\) 的長分別為 \\( 3 、 3 、 3 、 5 \\)，則對角線 \\( \\overline{A C}= \\)\n\n8. 甲、乙、丙三人分別在不共線的 \\( A \\) 、 \\( B \\) 、 \\( C \\) 三點看到天空中有一顆氣球，三人所測得的仰角皆為 \\( 45^{\\circ} \\)，且 \\( \\overline{A B}=100 \\sqrt{3} \\) 公尺， \\( \\angle A C B=60^{\\circ} \\)，則氣球的高度為________公尺。\n\n9. \\( \\Delta A B C \\) 的內切圓分別與 \\( \\overline{A B} 、 \\overline{B C} 、 \\overline{A C} \\) 相切於 \\( D 、 E 、 F \\) 點，已知 \\( \\overline{A D}=3 ， \\overline{B E}=4 ， \\overline{C F}=5 \\)，則 \\( \\Delta A B C \\) 面積 =_________。\n\n10. 坐標平面上兩直線 \\( L_{1}: y=\\frac{1}{\\sqrt{3}} x \\) 與 \\( L_{2}: y=-x \\)，若直線 \\( L_{1} \\) 和 \\( L_{2} \\) 的夾角為 \\( \\theta \\)，則 \\( \\theta= \\) 。 (兩解)",
+        "embed": "高中數學\n\n第1-2冊 評量卷\n\n三角比\n\n班級: <empty>\n座號: <empty>\n\n姓名: <empty>\n得分: <empty>\n\n◎填充題（占 100 分，每題 10 分）\n\n1. \\( \\Delta A B C \\) 如右圖，\\( \\overline{B C} \\perp \\overline{A C} \\)，D 點在 \\( \\overline{A C} \\) 上且 \\( \\overline{A D}=\\overline{B D} \\)，若 \\( \\sin \\angle B D C=\\frac{1}{2} \\)\n則 \\( \\tan A= \\)\n\n。\n\nA\nB\nC\nD\n\n2.若 \\( \\theta \\) 滿足 \\( 4 \\sin ^{2} \\theta+4 \\cos \\theta-1=0 \\), 又 \\( \\tan \\theta>0 \\), 且 \\( A \\) 點極坐標為 \\( [6, \\theta] \\), 則 \\( A \\) 點的直角坐標為\n\n3.試求 \\( \\sin ^{2} 26^{\\circ}+\\sin ^{2} 64^{\\circ}+\\tan 225^{\\circ} \\cos 240^{\\circ}= \\) : <empty>\n\n4.如右示意圖，在直角 \\( \\Delta A B C \\) 中，\\( \\angle A=90^{\\circ}, \\angle C=\\theta, \\sin \\theta+\\cos \\theta=\\frac{6}{5} \\)， \\( \\overline{B C}=20 \\), 則 \\( \\Delta A B C \\) 面積為______。\n\n20\nθ\n\n5.在 \\( \\Delta A B C \\) 中，\\( \\angle B=120^{\\circ}, \\overline{A B}=6, \\overline{B C}=4 \\)，若 \\( \\overline{B D} \\) 為 \\( \\angle A B C \\) 的內角平分線，則 \\( \\overline{B D}= \\)\n\n曼景\n\n數位文化(股)公司\n版權所有‧請勿翻印\n\nTMH409T\n\n6.如右圖，圓內接四邊形 \\( A B C D \\), \\( \\angle B A C=30^{\\circ}, \\angle C A D=45^{\\circ} \\), \\( \\overline{C D}=3 \\sqrt{2} \\), 則 \\( \\overline{B C}= \\) _______ 。\n\n7.已知 \\( ABCD \\) 是圓內接四邊形，若 \\( \\overline{A B} 、 \\overline{B C} 、 \\overline{C D} 、 \\overline{D A} \\) 的長分別為 \\( 3 、 3 、 3 、 5 \\)，則對角線 \\( \\overline{A C}= \\)\n\n8. 甲、乙、丙三人分別在不共線的 \\( A \\) 、 \\( B \\) 、 \\( C \\) 三點看到天空中有一顆氣球，三人所測得的仰角皆為 \\( 45^{\\circ} \\)，且 \\( \\overline{A B}=100 \\sqrt{3} \\) 公尺， \\( \\angle A C B=60^{\\circ} \\)，則氣球的高度為________公尺。\n\n9. \\( \\Delta A B C \\) 的內切圓分別與 \\( \\overline{A B} 、 \\overline{B C} 、 \\overline{A C} \\) 相切於 \\( D 、 E 、 F \\) 點，已知 \\( \\overline{A D}=3 ， \\overline{B E}=4 ， \\overline{C F}=5 \\)，則 \\( \\Delta A B C \\) 面積 =_________。\n\n10. 坐標平面上兩直線 \\( L_{1}: y=\\frac{1}{\\sqrt{3}} x \\) 與 \\( L_{2}: y=-x \\)，若直線 \\( L_{1} \\) 和 \\( L_{2} \\) 的夾角為 \\( \\theta \\)，則 \\( \\theta= \\) 。 (兩解)",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 2,
+    "credits": 4.0
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/a55556be-8185-4c79-b45f-e6dd0bfd6709.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20251022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251022T161736Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8136496ae4620ee8eda59ecebb0988536069b318b51228ab9595ebf5dff93f53",
+  "studio_link": "https://studio.reducto.ai/job/0688dbbd-f131-4d0d-a647-ab2fc92e816e"
+}

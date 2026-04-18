@@ -1,0 +1,529 @@
+{
+  "duration": 28.387983322143555,
+  "job_id": "8466e843-5860-48a4-9c68-d0435ef76f14",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.023752969121140142,
+              "left": 0.054575986565911,
+              "page": 1,
+              "top": 0.045724465558194774,
+              "width": 0.08144416456759027,
+              "original_page": 1
+            },
+            "content": "對話式",
+            "type": "Section Header",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6273852050304413
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020783847980997625,
+              "left": 0.04450041981528128,
+              "page": 1,
+              "top": 0.08135391923990498,
+              "width": 0.16288832913518053,
+              "original_page": 1
+            },
+            "content": "| 第2冊基礎卷",
+            "type": "Section Header",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.4573597818613052
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.038168207200292736,
+              "left": 0.23912193112569533,
+              "page": 1,
+              "top": 0.05487524019001216,
+              "width": 0.05402861754499895,
+              "original_page": 1
+            },
+            "content": "",
+            "type": "Figure",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5110714465379715
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.3157010915197313,
+              "page": 1,
+              "top": 0.06591448931116389,
+              "width": 0.235936188077246,
+              "original_page": 1
+            },
+            "content": "3-2 相關係數與迴歸直線",
+            "type": "Text",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7309042811393738
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06011131540330176,
+              "left": 0.705510957014851,
+              "page": 1,
+              "top": 0.043829625689218846,
+              "width": 0.2431668298370592,
+              "original_page": 1
+            },
+            "content": "班級: <empty>\n座號: <empty>\n\n姓名: <empty>\n得分: <empty>",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9931235313415527
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.04869857262804366,
+              "page": 1,
+              "top": 0.11817102137767221,
+              "width": 0.36859781696053734,
+              "original_page": 1
+            },
+            "content": "◎單選與填充題(占100分,每題 10 分)",
+            "type": "Section Header",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7867130637168884
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.054575986565911,
+              "page": 1,
+              "top": 0.14608076009501186,
+              "width": 0.3711167086481948,
+              "original_page": 1
+            },
+            "content": "- 1.下列哪一個選項的散布圖呈現負相關?",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7354001581668854
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08976388600546503,
+              "left": 0.059911130557632766,
+              "page": 1,
+              "top": 0.15984529327610042,
+              "width": 0.8492532853415591,
+              "original_page": 1
+            },
+            "content": "(A) \ny\nx\n\n(B)\ny\nx\n\n(C)\ny\nx\n\n(D)\ny\nx\n\n(E)\ny\nx",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.830130672454834
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10095001003238198,
+              "left": 0.05141234377869831,
+              "page": 1,
+              "top": 0.3247408108020339,
+              "width": 0.865201948471774,
+              "original_page": 1
+            },
+            "content": "2.下列哪一個選項的二維數據散布圖有最小的相關係數？\n\n(A) y\nx\n\n(B) y\nx\n\n(C) y\nx\n\n(D) y\nx\n\n(E) y\nx",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.87170569896698
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.052057094878253565,
+              "page": 1,
+              "top": 0.505938242280285,
+              "width": 0.8942065491183879,
+              "original_page": 1
+            },
+            "content": "- 3.已知二維數據(a,b)、(c,d)、(e,f)的相關係數為r,請問下列哪一個選項的相關係數不是r?",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9006133824586868
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.06968933669185558,
+              "page": 1,
+              "top": 0.5492874109263658,
+              "width": 0.4256926952141058,
+              "original_page": 1
+            },
+            "content": "(A)(a+1,b-2)、(c+1,d-2)、(e+1,f-2)",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9273265808820724
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.07052896725440806,
+              "page": 1,
+              "top": 0.5700712589073634,
+              "width": 0.36439966414777497,
+              "original_page": 1
+            },
+            "content": "\t(B)(a+1,26)、(c+1,2d)、(e+1,2f)",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9359527111053467
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.07052896725440806,
+              "page": 1,
+              "top": 0.5908551068883611,
+              "width": 0.2938706968933669,
+              "original_page": 1
+            },
+            "content": "\t(C)(2a,3b)、(2c,3d)、(2e3f)",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9370522022247315
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.07052896725440806,
+              "page": 1,
+              "top": 0.6128266033254157,
+              "width": 0.42989084802686817,
+              "original_page": 1
+            },
+            "content": "\t(D)(1-a,2-b)、(1-c,2-d)、(1-e,2-f)",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9356023758649826
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0166270783847981,
+              "left": 0.07052896725440806,
+              "page": 1,
+              "top": 0.6336104513064132,
+              "width": 0.4282115869017632,
+              "original_page": 1
+            },
+            "content": "\t(E)(a+1,2-b)、(c+1,2-d)、(e+1,2-f)",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.933147943019867
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0166270783847981,
+              "left": 0.052057094878253565,
+              "page": 1,
+              "top": 0.7339667458432304,
+              "width": 0.8765743073047859,
+              "original_page": 1
+            },
+            "content": "- 4.二維數據(x,y)~(x,y)的相關係數是 0.5,則標準化之後的迴歸直線為下列哪一個選項?",
+            "type": "List Item",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9364342540502548
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09195424711902464,
+              "left": 0.06738716208764628,
+              "page": 1,
+              "top": 0.7736828004379454,
+              "width": 0.8345349277397047,
+              "original_page": 1
+            },
+            "content": "| Panel | Slope (sign) | y-intercept (above/below origin) | x-intercept (left/right of origin) |\n|---|---:|---|---|\n| (A) | positive | above origin | left of origin |\n| (B) | positive | below origin | right of origin |\n| (C) | negative | above origin | right of origin |\n| (D) | negative | below origin | right of origin |\n| (E) | positive | above origin | left of origin |",
+            "type": "Figure",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8198417276144028
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.021377672209026127,
+              "left": 0.04617968094038623,
+              "page": 1,
+              "top": 0.9608076009501187,
+              "width": 0.17632241813602015,
+              "original_page": 1
+            },
+            "content": "數位文化(股)公司\n曼景\n版權所有‧請勿翻印",
+            "type": "Footer",
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7707578659057617
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.4836272040302267,
+              "page": 1,
+              "top": 0.9673396674584323,
+              "width": 0.02938706968933669,
+              "original_page": 1
+            },
+            "content": "8-1",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8692644238471985
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.8690176322418136,
+              "page": 1,
+              "top": 0.9661520190023754,
+              "width": 0.0764063811922754,
+              "original_page": 1
+            },
+            "content": "TMH102W",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8731879979372024
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.026713935326510542,
+              "left": 0.04833960673270558,
+              "page": 2,
+              "top": 0.03637892843142258,
+              "width": 0.9064149448192991,
+              "original_page": 2
+            },
+            "content": "5.數對(1, 2)、(2, 1)、(3, 3 )的相關係數為 \\( r \\), 迴歸直線為 \\( y=a x+b \\), 求序組 \\( (r, a, b)=\\quad \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9936816930770874
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06625676098458841,
+              "left": 0.04954594468790178,
+              "page": 2,
+              "top": 0.165249079253498,
+              "width": 0.6774208427576535,
+              "original_page": 2
+            },
+            "content": "6.兒童益智遊戲如圖左，每一行有 10 個珠子，經撥弄之後成圖右，由左至右第 \\( k \\) 行的上方珠數為 \\( x_{k} \\)，下方珠數為 \\( y_{k} \\)，試求 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{7}, y_{7}\\right) \\)所成二維數據的相關係數為______。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.83186194896698
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07141154962027724,
+              "left": 0.7536854779990554,
+              "page": 2,
+              "top": 0.1665386825162838,
+              "width": 0.19984683301847186,
+              "original_page": 2
+            },
+            "content": "",
+            "type": "Figure",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5579899400472641
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04514919833729216,
+              "left": 0.048590777803127955,
+              "page": 2,
+              "top": 0.33484129554585434,
+              "width": 0.9063056253966516,
+              "original_page": 2
+            },
+            "content": "7.二維數據 \\( (a, 3 a+2),(b, 3 b+2),(c, 3 c+2),(d, 3 d+2) \\)，其中 \\( a 、 b 、 c 、 d \\) 為相異實數，求二維數據的相關係數為_______。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8397668361663818
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07262777659219122,
+              "left": 0.04937487905712112,
+              "page": 2,
+              "top": 0.48359216250603104,
+              "width": 0.9074916631408743,
+              "original_page": 2
+            },
+            "content": "8.二維數據 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{n}, y_{n}\\right) \\) 呈現高度相關，其中 x 值代表某商品的售價（元），y 值代表銷售量 (萬個 ) ，迴歸直線為 \\( y=-\\frac{x}{3}+70 \\)，若某商品的售價為 90 元，則可預測該商品的銷售量為________個。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8524151802062988
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047207068943920724,
+              "left": 0.04875290403838522,
+              "page": 2,
+              "top": 0.6633244965252004,
+              "width": 0.9074897573937096,
+              "original_page": 2
+            },
+            "content": "9.設二維數據 \\( \\left(x_{1}, y_{1}\\right) \\cdot\\left(x_{2}, y_{2}\\right) \\cdot\\left(x_{3}, y_{3}\\right) \\cdot\\left(x_{4}, y_{4}\\right) \\) 的迴歸直線為 \\( y=3 x+7 \\), 若 \\( x_{1}+x_{2}+x_{3}+x_{4}=8 \\) ，求 \\( y_{1}+y_{2}+y_{3}+y_{4}= \\)",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9743966341018677
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05460210877189727,
+              "left": 0.04723697985850093,
+              "page": 2,
+              "top": 0.8122617309280359,
+              "width": 0.9053522841856322,
+              "original_page": 2
+            },
+            "content": "10. 二維數據 \\( (X, Y) \\) 為 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{n}, y_{n}\\right) \\), 若 \\( x_{1} \\sim x_{n} \\) 的算術平均為 5 , 標準差為 2 , \\( y_{1} \\sim y_{n} \\) 的算術平均為 3 , 標準差為 6 , 且 X 與 Y 的相關係數為 \\( \\frac{2}{3} \\), 求迴歸直線方程式為____。",
+            "type": "Key Value",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7614586830139161
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.4836272040302267,
+              "page": 2,
+              "top": 0.9667458432304038,
+              "width": 0.03190596137699412,
+              "original_page": 2
+            },
+            "content": "8-2",
+            "type": "Footer",
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8820179581642151
+            },
+            "image_url": null
+          }
+        ],
+        "content": "## 對話式\n\n## | 第2冊基礎卷\n\n\n\n3-2 相關係數與迴歸直線\n\n班級: <empty>\n座號: <empty>\n\n姓名: <empty>\n得分: <empty>\n\n## ◎單選與填充題(占100分,每題 10 分)\n\n- 1.下列哪一個選項的散布圖呈現負相關?\n\n(A) \ny\nx\n\n(B)\ny\nx\n\n(C)\ny\nx\n\n(D)\ny\nx\n\n(E)\ny\nx\n\n2.下列哪一個選項的二維數據散布圖有最小的相關係數？\n\n(A) y\nx\n\n(B) y\nx\n\n(C) y\nx\n\n(D) y\nx\n\n(E) y\nx\n\n- 3.已知二維數據(a,b)、(c,d)、(e,f)的相關係數為r,請問下列哪一個選項的相關係數不是r?\n\n(A)(a+1,b-2)、(c+1,d-2)、(e+1,f-2)\n\n\t(B)(a+1,26)、(c+1,2d)、(e+1,2f)\n\n\t(C)(2a,3b)、(2c,3d)、(2e3f)\n\n\t(D)(1-a,2-b)、(1-c,2-d)、(1-e,2-f)\n\n\t(E)(a+1,2-b)、(c+1,2-d)、(e+1,2-f)\n\n- 4.二維數據(x,y)~(x,y)的相關係數是 0.5,則標準化之後的迴歸直線為下列哪一個選項?\n\n| Panel | Slope (sign) | y-intercept (above/below origin) | x-intercept (left/right of origin) |\n|---|---:|---|---|\n| (A) | positive | above origin | left of origin |\n| (B) | positive | below origin | right of origin |\n| (C) | negative | above origin | right of origin |\n| (D) | negative | below origin | right of origin |\n| (E) | positive | above origin | left of origin |\n\n數位文化(股)公司\n曼景\n版權所有‧請勿翻印\n\n8-1\n\nTMH102W\n\n5.數對(1, 2)、(2, 1)、(3, 3 )的相關係數為 \\( r \\), 迴歸直線為 \\( y=a x+b \\), 求序組 \\( (r, a, b)=\\quad \\)\n\n6.兒童益智遊戲如圖左，每一行有 10 個珠子，經撥弄之後成圖右，由左至右第 \\( k \\) 行的上方珠數為 \\( x_{k} \\)，下方珠數為 \\( y_{k} \\)，試求 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{7}, y_{7}\\right) \\)所成二維數據的相關係數為______。\n\n\n\n7.二維數據 \\( (a, 3 a+2),(b, 3 b+2),(c, 3 c+2),(d, 3 d+2) \\)，其中 \\( a 、 b 、 c 、 d \\) 為相異實數，求二維數據的相關係數為_______。\n\n8.二維數據 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{n}, y_{n}\\right) \\) 呈現高度相關，其中 x 值代表某商品的售價（元），y 值代表銷售量 (萬個 ) ，迴歸直線為 \\( y=-\\frac{x}{3}+70 \\)，若某商品的售價為 90 元，則可預測該商品的銷售量為________個。\n\n9.設二維數據 \\( \\left(x_{1}, y_{1}\\right) \\cdot\\left(x_{2}, y_{2}\\right) \\cdot\\left(x_{3}, y_{3}\\right) \\cdot\\left(x_{4}, y_{4}\\right) \\) 的迴歸直線為 \\( y=3 x+7 \\), 若 \\( x_{1}+x_{2}+x_{3}+x_{4}=8 \\) ，求 \\( y_{1}+y_{2}+y_{3}+y_{4}= \\)\n\n10. 二維數據 \\( (X, Y) \\) 為 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{n}, y_{n}\\right) \\), 若 \\( x_{1} \\sim x_{n} \\) 的算術平均為 5 , 標準差為 2 , \\( y_{1} \\sim y_{n} \\) 的算術平均為 3 , 標準差為 6 , 且 X 與 Y 的相關係數為 \\( \\frac{2}{3} \\), 求迴歸直線方程式為____。\n\n8-2",
+        "embed": "## 對話式\n\n## | 第2冊基礎卷\n\n\n\n3-2 相關係數與迴歸直線\n\n班級: <empty>\n座號: <empty>\n\n姓名: <empty>\n得分: <empty>\n\n## ◎單選與填充題(占100分,每題 10 分)\n\n- 1.下列哪一個選項的散布圖呈現負相關?\n\n(A) \ny\nx\n\n(B)\ny\nx\n\n(C)\ny\nx\n\n(D)\ny\nx\n\n(E)\ny\nx\n\n2.下列哪一個選項的二維數據散布圖有最小的相關係數？\n\n(A) y\nx\n\n(B) y\nx\n\n(C) y\nx\n\n(D) y\nx\n\n(E) y\nx\n\n- 3.已知二維數據(a,b)、(c,d)、(e,f)的相關係數為r,請問下列哪一個選項的相關係數不是r?\n\n(A)(a+1,b-2)、(c+1,d-2)、(e+1,f-2)\n\n\t(B)(a+1,26)、(c+1,2d)、(e+1,2f)\n\n\t(C)(2a,3b)、(2c,3d)、(2e3f)\n\n\t(D)(1-a,2-b)、(1-c,2-d)、(1-e,2-f)\n\n\t(E)(a+1,2-b)、(c+1,2-d)、(e+1,2-f)\n\n- 4.二維數據(x,y)~(x,y)的相關係數是 0.5,則標準化之後的迴歸直線為下列哪一個選項?\n\n| Panel | Slope (sign) | y-intercept (above/below origin) | x-intercept (left/right of origin) |\n|---|---:|---|---|\n| (A) | positive | above origin | left of origin |\n| (B) | positive | below origin | right of origin |\n| (C) | negative | above origin | right of origin |\n| (D) | negative | below origin | right of origin |\n| (E) | positive | above origin | left of origin |\n\n數位文化(股)公司\n曼景\n版權所有‧請勿翻印\n\n8-1\n\nTMH102W\n\n5.數對(1, 2)、(2, 1)、(3, 3 )的相關係數為 \\( r \\), 迴歸直線為 \\( y=a x+b \\), 求序組 \\( (r, a, b)=\\quad \\)\n\n6.兒童益智遊戲如圖左，每一行有 10 個珠子，經撥弄之後成圖右，由左至右第 \\( k \\) 行的上方珠數為 \\( x_{k} \\)，下方珠數為 \\( y_{k} \\)，試求 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{7}, y_{7}\\right) \\)所成二維數據的相關係數為______。\n\n\n\n7.二維數據 \\( (a, 3 a+2),(b, 3 b+2),(c, 3 c+2),(d, 3 d+2) \\)，其中 \\( a 、 b 、 c 、 d \\) 為相異實數，求二維數據的相關係數為_______。\n\n8.二維數據 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{n}, y_{n}\\right) \\) 呈現高度相關，其中 x 值代表某商品的售價（元），y 值代表銷售量 (萬個 ) ，迴歸直線為 \\( y=-\\frac{x}{3}+70 \\)，若某商品的售價為 90 元，則可預測該商品的銷售量為________個。\n\n9.設二維數據 \\( \\left(x_{1}, y_{1}\\right) \\cdot\\left(x_{2}, y_{2}\\right) \\cdot\\left(x_{3}, y_{3}\\right) \\cdot\\left(x_{4}, y_{4}\\right) \\) 的迴歸直線為 \\( y=3 x+7 \\), 若 \\( x_{1}+x_{2}+x_{3}+x_{4}=8 \\) ，求 \\( y_{1}+y_{2}+y_{3}+y_{4}= \\)\n\n10. 二維數據 \\( (X, Y) \\) 為 \\( \\left(x_{1}, y_{1}\\right) \\sim\\left(x_{n}, y_{n}\\right) \\), 若 \\( x_{1} \\sim x_{n} \\) 的算術平均為 5 , 標準差為 2 , \\( y_{1} \\sim y_{n} \\) 的算術平均為 3 , 標準差為 6 , 且 X 與 Y 的相關係數為 \\( \\frac{2}{3} \\), 求迴歸直線方程式為____。\n\n8-2",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 2,
+    "credits": 4.0
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/e30da088-b69b-4ec7-a095-8756ef1744a0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20251022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251022T165937Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5511220eb597ac73ca440d50b60a43146bc211be7e377dd83342c502de5e43ac",
+  "studio_link": "https://studio.reducto.ai/job/8466e843-5860-48a4-9c68-d0435ef76f14"
+}

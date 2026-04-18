@@ -1,0 +1,10 @@
+python -m venv .venv
+.\.venv\Scripts\activate
+
+pip install flask
+pip install python-dotenv
+pip install reducto
+pip install reductoai==0.13.0
+**如果有開虛擬環境，要在全域重裝一次0.13.0那行**
+
+pip install opencc-python-reimplemented

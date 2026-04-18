@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "category": "unknown"
+  },
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.07,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]1. 平面 \\( E \\) 上有直角三角形 \\( \\triangle A B C \\), \\( \\angle A B C=90^{\\circ} \\), \\( O \\) 為平面 \\( E \\) 外一點且 \\( \\overline{O A} \\) 與 \\( E \\) 垂直 , 已知 \\( \\overline{O A}=3 \\) , \\( \\overline{A B}=4 \\), \\( \\overline{B C}=12 \\), 求 \\( \\overline{O C}= \\): ______"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.17,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]2. 長方體三邊長由大而小依次為 12 、 3 、 2 ， \\( \\overline{P Q} \\) 為通過內部的對角線，若有一隻螞蟻沿長方體表面由 \\( P \\) 爬到 \\( Q \\)，求最短路徑長度為 \\( \\frac{\\sqrt{145}}{2} \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.27,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]3. 正立方體通過內部的對角線長度為 \\( \\sqrt{6} \\) ，求正立方體的體積為 \\( \\sqrt{6} \\) 立方單位。"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.37,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]4. 正四面體 \\( A B C D \\) 的各棱長為 6 , 求正四面體 \\( A B C D \\) 的體積為 \\( \\sqrt{6} \\) 立方單位。"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.47,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]5. 一個四角錐 \\( A-B C D E \\) 的底面為邊長 4 的正方形 \\( B C D E \\), 側面由四個腰長為 3 的等腰三角形組成 , 設側面三角形與底面正方形所夾二面角為 \\( \\theta \\), 求 \\( \\sin \\theta= \\): ______"
+          }
+        ]
+      },
+      {
+        "blocks": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.07,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]6. 如右圖，ABCD 是邊長 6 的正方形，P、Q 為 BC 、CD 的中點，今將此正方形沿 AP 、 PQ 、 AQ 向上折起，使 B 、 C 、 D 三重合，令此點為 R ，則四面體 APQR 的體積為 ______。"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.17,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]7. 正立方體 \\( A B C D-E F G H \\) 的邊長為 2 , 兩條通過內部的對角線 \\( \\overline{A G} 、 \\overline{C E} \\) 相交於一點 \\( P \\), 求銳交角 \\( \\angle A P E \\) 的餘弦值為 \\( \\frac{\\sqrt{3}}{6} \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.27,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]8. 四面體 \\( O-A B C \\)，已知 \\( \\overline{O A} 、 \\overline{O B} 、 \\overline{O C} \\) 兩兩垂直，且 \\( O A=3 ， O B=4 ， O C=2 \\)，求 \\( C \\) 到 \\( \\overrightarrow{A B} \\) 的距離為 \\( \\frac{\\sqrt{10}}{2} \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.37,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]9. 將正方形 \\( A B C D \\) 沿對角線 \\( \\overline{B D} \\) 摺起，若 \\( \\angle A B C=30^{\\circ} \\)，則 \\( \\triangle A B D \\) 上面積 4 的圖形投影到 \\( \\triangle C B D \\) 上，投影面積為 \\( \\frac{1}{2} \\)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.47,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]10. 四面體 \\( P Q A B \\) 如右圖 , \\( \\triangle P A B \\) 與 \\( \\Delta Q B A \\) 為全等的直角三角形 , \\( \\overline{P A}=\\overline{Q B}=4 \\), \\( \\overline{A B}=3, \\angle P A B=\\angle Q B A=90^{\\circ} \\), 若 \\( \\overline{P Q}=6 \\), 側面 \\( P A B \\) 與底面 \\( Q A B \\) 所成的二面角為 \\( \\theta \\), 求 \\( \\cos \\theta= \\): ______"
+          }
+        ]
+      }
+    ]
+  }
+}

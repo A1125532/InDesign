@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "category": "math_exam"
+  },
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.07,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]1. 設定以下條件，哪一個選項的數值最大？\r[option] (A) 147 (B) 11374 (C) 111 (D) 344X (E) 114X\r[solution] 對固定函數 f(x)，當 k 越大，值越大。最大值為 k=4，答案：(E)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.17,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]2. 不等式 12x - 3 ≤ 14 共有幾個整數解？\r[option] (A) 1 (B) 2 (C) 3 (D) 4 (E) 5\r[solution] 解：-4 ≤ 2x - 3 ≤ 4，解得 -0.5 ≤ x ≤ 3.5，整數解為 x = 0, 1, 2, 3，共 4 個，答案：(D)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.27,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]3. 若數列中包含 11, 1b1, 101, 1d，問其中有幾個為正數？\r[option] (A) 1 個 (B) 2 個 (C) 3 個 (D) 4 個 (E) 以上皆非\r[solution] 設正數為 P 個，負數為 4-P 個，解得 P=3，答案：(C)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.37,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]4. 若方程式 17 - 4x - 17 - 7k 無實數解，則 k 的值為何？\r[option] (A) k=0 (B) k=1 (C) k=2 (D) k=3 (E) k=4\r[solution] 解：當 k=4 時，方程式無實數解，答案：(E)"
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.47,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 1
+            },
+            "content": "[problem]5. 計算 \\( \\sqrt{(2 + \\sqrt{5})^2} + \\sqrt{(\\sqrt{55} - 4)^2} \\)\r[solution] 解：\\( \\sqrt{(2 + \\sqrt{5})^2} + \\sqrt{(\\sqrt{55} - 4)^2} = 66 \\)"
+          }
+        ]
+      },
+      {
+        "blocks": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.07,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]6. 題目...\r[option] (A)...\r[solution] ..."
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.17,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]7. 題目...\r[option] (A)...\r[solution] ..."
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.27,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]8. 題目...\r[option] (A)...\r[solution] ..."
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.37,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]9. 題目...\r[option] (A)...\r[solution] ..."
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.045,
+              "top": 0.47,
+              "width": 0.86,
+              "height": 0.09,
+              "page": 2
+            },
+            "content": "[problem]10. 題目...\r[option] (A)...\r[solution] ..."
+          }
+        ]
+      }
+    ]
+  }
+}
