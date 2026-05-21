@@ -1,0 +1,12 @@
+# 本機金鑰與設定（勿提交）
+convert/server/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 上傳與大型產物（可依需要調整）
+ingest/uploads/
+ingest/downloads/
